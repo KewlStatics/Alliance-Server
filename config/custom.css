@@ -1,0 +1,2702 @@
+/**************
+  * General CSS *
+  **************/
+/* ICONS START */
+  #lobby-userlist-users {
+    background: rgba(255,255,255,0.8) url("http://www.poketools.fr/resources/img/content/poke_icons/635.png") no-repeat left;
+}
+#lobby-userlist-users:hover {
+    background: rgba(255,255,255,0.8) url("http://www.poketools.fr/resources/img/content/poke_icons/635.png") no-repeat left;
+}
+.dark #lobby-userlist-users {
+    background: rgba(255,255,255,0.8) url("http://i.imgur.com/pp37hsK.png") no-repeat left;
+}
+.dark #lobby-userlist-users:hover {
+    background: rgba(255,255,255,0.8) url("http://i.imgur.com/pp37hsK.png") no-repeat left;
+}
+   #distributions-userlist-users {
+    background: rgba(255,255,255,0.8) url("http://www.pokepedia.fr/images/2/28/Miniat_6_x_250.png") no-repeat left;
+}
+   #distributions-userlist-users:hover {
+    background: rgba(255,255,255,0.8) url("http://www.pokepedia.fr/images/2/28/Miniat_6_x_250.png") no-repeat left;
+}
+#jvc-userlist-users {
+    background: rgba(255,255,255,0.8) url("http://imgur.com/nfvIA1y.png") no-repeat left;
+}
+#jvc-userlist-users:hover { 
+    background: rgba(255,255,255,0.8) url("http://imgur.com/nfvIA1y.png") no-repeat left;
+}
+#tournaments-userlist-users {
+    background: rgba(255,255,255,0.8) url("http://www.pokepedia.fr/images/8/8f/Miniat_6_r_384M.png") no-repeat left;
+}
+#tournaments-userlist-users:hover {
+    background: rgba(255,255,255,0.8) url("http://www.pokepedia.fr/images/8/8f/Miniat_6_r_384M.png") no-repeat left;
+}
+.dark #tournaments-userlist-users {
+    background: rgba(255,255,255,0.8) url("http://www.pokepedia.fr/images/8/8f/Miniat_6_r_384M.png") no-repeat left;
+}
+
+  /* ICONS END */
+  /* CLASS CSS*/
+  .intro-div {
+    padding: 6px;
+    border: none;
+    background-color: rgba(0,0,0,0.30);
+    color: #3E3E3E;
+    text-shadow: -1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff,1px 1px 0 #fff;
+    margin: 15px;
+}
+.bigbang-button {
+    border: 1px solid #3E3E3E;
+    background: #598487;
+    color: #FFFFFF;
+    margin: 1px 3px;
+    padding: 2px 4px;
+    text-shadow: 0 0 2px #000000;
+    box-shadow: 0 0 4px rgba(245, 245, 242, 0.7);
+}
+.bigbang-button:hover {
+    border: 1px solid #3E3E3E;
+    background: #7DA8AB;
+    color: #FFFFFF;
+    margin: 1px 3px;
+    padding: 2px 4px;
+    text-shadow: 0 0 2px #000000;
+    box-shadow: 0 0 1px #FBFCFD;
+}
+.supernovaq-button {
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    background-color: rgba(148, 51, 144, 0.50);
+}
+.supernovaq-button:hover {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    background-color: rgba(41, 41, 41, 0.8);
+}
+
+.supernova-button2 {
+    color: #fff;
+    font-size: 10px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: -.3px;
+    background-color: rgba(148,51,144,0.5);
+}
+
+.supernova-button2:hover {
+    color: #fff;
+    font-size: 10px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: -.3px;
+    background-color: rgba(41, 41, 41, 0.8);
+}
+.bigbang-div {
+    background: rgba(89,120,123,0.20);
+    padding: 5px;
+    text-shadow: 0 0 2px #000;
+    color: #FFF;
+}
+.paypal-button {
+    background: rgb(239, 178, 74);
+    color: #30516B;
+    margin: 1px 3px;
+    padding: 2px 4px;
+    text-shadow: 0 0 2px #FFF;
+    border-bottom: 2px solid #30516B;
+    border-top: 1px solid #D0A805;
+    border-right: 1px solid #D0A805;
+    border-left: 1px solid #D0A805;
+}
+.paypal-button:hover {
+    background: rgb(239, 178, 74);
+    color: #30516B;
+    margin: 1px 3px;
+    padding: 2px 4px;
+    text-shadow: 0 0 2px #FFF;
+    border-bottom: 2px solid #30516B;
+    border-top: 1px solid #D0A805;
+    border-right: 1px solid #D0A805;
+    border-left: 1px solid #D0A805;
+    text-decoration: underline;
+}
+.bb-button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    line-height: 35px;
+    letter-spacing: -.3px;
+    background-color: rgba(55, 83, 133, 0.61);
+}
+.bb-button:hover {
+    text-decoration: none;
+    color: rgba(55, 83, 133, 0.61);
+    font-size: 17px;
+    border: 2px solid rgba(55, 83, 133, 0.61);
+    text-transform: uppercase;
+    line-height: 35px;
+    letter-spacing: -.3px;
+    background-color: white;
+}
+.jvc-button {
+    background: rgba(176, 94, 42, 0.53);
+    width: 32%;
+    height: 50px;
+    padding-right: 8px;
+    color: #FFFFFF;
+    font-size: 12pt;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+}
+.jvc-button:hover {
+    background: rgba(243, 240, 238, 0.53);
+    width: 32%;
+    height: 50px;
+    padding-right: 8px;
+    color: #B24603;
+    font-size: 12pt;
+    text-align: center;
+    border: 2px solid #B24603;
+    border-radius: 15px;
+}
+.distrib-button{
+    background: rgba(223, 136, 116, 0.78);
+    border-bottom: 8px solid #C94B30;
+    padding-bottom: 0;
+    height: 170px;
+    width: 110px;
+    color: #ffffff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    }
+.distrib-button:hover {
+    background: rgba(223, 136, 116, 0.57);
+    border-bottom: 8px solid #E46145;
+    padding-bottom: 0;
+    height: 170px;
+    width: 110px;
+    color: #ffffff;
+    border-left: 1px solid #E39671;
+    border-right: 1px solid #E39671;
+    border-top: 1px solid #E39671;
+}
+.profile-button {
+    border:none;
+    background: rgba(172, 215, 166, 0.14);
+    background: rgba(0, 0, 0, 0.38);
+    color: #666;
+    padding: 2px 4px;
+    border-radius: 10px;
+    float: left;
+}
+.profile-button:hover {
+    border:none;
+    background: rgba(172, 215, 166, 0.19);
+    color: #666;
+    padding: 2px 4px;
+    border-radius: 10px;
+    float: left;
+}
+.profile-buttonn {
+    border:none;
+    background: rgba(172, 215, 166, 0.14);
+    background: rgba(0, 0, 0, 0.38);
+    color: #666;
+    padding: 2px 4px;
+    border-radius: 10px;
+    float: right;
+}
+.profile-buttonn:hover {
+    border:none;
+    background: rgba(172, 215, 166, 0.19);
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 10px;
+    float: right;
+}
+
+.rankladder-headers {
+  background: #454E50;
+  color: #FFF;
+  text-shadow: 1px 1px #262B2C, -1px 1px #262B2C;
+  border: 1px solid #222; }
+
+.default-td {
+  padding: 5px;
+  border: 1px solid #222; }
+
+.rankladder-tds {
+  background: #FCFCFC; }
+
+.rankladder-tds:hover {
+  background: #EFEFEF; }
+
+.first {
+  background: #CFB53B;
+  color: #645722;
+  text-shadow: 0px 0px 2px #F6EAB9;
+  padding: 8px; }
+
+.first:hover {
+  background: #D5BD5B; }
+
+.second {
+  background: #C0C0C0;
+  color: #5B5B5B;
+  text-shadow: 0px 0px 2px #EEE;
+  padding: 8px; }
+
+.second:hover {
+  background: #CACACA; }
+
+.third {
+  background: #CD7F32;
+  color: #694725;
+  text-shadow: 0px 0px 2px #E4BA91;
+  padding: 8px; }
+
+.third:hover {
+  background: #CD9054; }
+
+.card-th {
+  background-color: #DCE9F9;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  border: 1px solid #CCC;
+  }
+
+.card-td {
+  background: #FFF;
+  border: 1px solid #CCC;
+  text-align: center;
+  }
+
+.card-div {
+  padding: 5px;
+  color: #333; 
+    
+}
+
+.card-th:hover, .card-td:hover {
+  color: #222; 
+    
+}
+
+.card-button {
+  margin: 0px 3px;
+  }
+
+.card-td button, .card-button {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 15px;
+  color: #333;
+  text-shadow: 1px 1px 1px #FFF; 
+    
+}
+
+.card-td button:hover, .card-button:hover {
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid #CCC;
+  text-shadow: 1px 1px 1px #EEE;
+  }
+
+.card-td button:focus, .card-button:focus {
+  background: rgba(227, 235, 246, 0.8);
+  border: 1px solid #9EB2D0; 
+}
+
+  .card-name {
+    background-color: #DCE9F9;
+    text-shadow: 0 1px 0;
+    font-size: 25pt;
+    font-weight: 700;
+    padding: 5px 20px 10px;
+    border: 1px solid #CCC;
+    color: #444;
+}
+.card-tda {
+    box-shadow: 2px 3px 5px rgba(0 , 0 , 0 , 0.2);
+    background: url(http://image.noelshack.com/fichiers/2016/16/1461287700-fdffff.png);
+    border-bottom: 7px solid #E7E7E7;
+    padding-bottom: 5px;
+}
+.casidiv {
+    color: #3E696C;
+    text-shadow: 0 0 2px #fff;
+    background: #E0EAF3;
+    width: 100%;
+    padding-right: 15px;
+}
+.raptorbutton {
+    border:none;
+    background: rgba(167, 160, 154, 0.42);
+}
+.message-announce {
+    background: #5E939A;
+    color: #fff;
+    padding: 1px 4px 2px;
+    border-bottom: 1px dashed #33556E;
+    text-shadow: 0 0 2px #000;
+    font-size: 9pt;
+}
+.lolle {
+    border: 2px solid #769191;
+    background: #94B7BC;
+    color: #283333;
+    padding: 5px 5px 5px;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 5px;
+    text-shadow: 0 0 2px #fff
+    }
+.emote-td {
+    background: rgba(69,122,124,0.6);
+    border: 2px solid #769191;
+    padding: 5px;
+    text-align: center;
+    text-shadow: 0 0 2px #fff;
+}
+
+.emote-td:hover {
+    background: rgba(113, 169, 175, 0.6);
+}
+
+th.table-header {
+    background: rgb(67, 118, 126) !important;
+    padding: 15px 8px;
+    border: 1px solid #213D38;
+    color: #FFF;
+    font-size: 15pt;
+    border-bottom: 5px solid #31536D;
+    font-family: arial;
+    text-shadow: 0 0 2px #000;
+}
+
+td.shop-button {
+    background: rgba(67,118,126,0.90);
+    color: #FFFFFF;
+    text-shadow: 0px 0px 5px #000;
+    border: 0px solid;
+    padding: 10px 10px;
+    font-size: 15pt;
+    border-bottom: 5px solid #31536D;
+}
+td.shop-button:hover{
+    background: rgba(67,118,126,0.60);
+    color: #FFFFFF;
+    text-shadow: 0px 0px 5px #000;
+    border: 0px solid;
+    padding: 10px 10px;
+    font-size: 15pt;
+    border-bottom: 5px solid #31536D;
+}
+.viewresults{
+    cursor: pointer;
+    border: 1px solid #30516B;
+    color: #30516B;
+    background: #E0EAF3;
+    border-radius: 5px;
+    text-shadow: 0 0 2px #fff;
+}
+.viewresults:hover{
+    cursor: pointer;
+    border: 1px solid #30516B;
+    color: #30516B;
+    background: #CDDEED;
+    border-radius: 5px;
+    text-shadow: 0 0 2px #fff;
+}
+.infoboxui {
+   background: rgba(69,121,126,0.15);
+    border-bottom: 2px solid #30516B;
+    color: #012436;
+    text-shadow: 0 0 2px #fff;
+    padding-bottom: 5px;
+}
+.infoboxu {
+    background: rgba(68,119,124,0.35);
+    border-bottom: 8px solid #30516B;
+    color: #30516B;
+    text-shadow: 0 0 2px #fff;
+    padding-bottom: 5px;
+    border-right: 2px solid rgba(48, 81, 107, 0.8);
+}
+.savebutton {
+    background: #C9AAD8;
+    color: #412458;
+    text-shadow: 0 0 2px #fff;
+    border: 1px solid #956AB6;
+    border-radius: 5px;
+    font-size: 13pt;
+    font-variant: small-caps;
+}
+.listbutton {
+    background: #C9AAD8;
+    color: #412458;
+    text-shadow: 0 0 2px #fff;
+    border: 1px solid #956AB6;
+    border-radius: 5px;
+    font-size: 13pt;
+    font-variant: small-caps;
+}
+/* END CLASS CSS*/
+
+/*GENERAL CSS*/
+    
+body { 
+    background-image: url("http://i.imgur.com/NgRnZQJ.jpg") !important;
+    background-size: cover;
+}
+.unread {
+    background: rgba(202, 130, 255, 0.33);
+}
+.message-announce {
+    background: #AC8BC6;
+    color: white;
+    padding: 1px 4px 2px;
+    text-shadow: 0 0 2px #000;
+}
+ .broadcast-red {
+    background: #D57575;
+    border: 1px solid #985555;
+    color: #FFD7D7;
+    padding: 5px 1px 3px 8px;
+    text-shadow: 1px 1px 1px #985555;
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+    font-style: normal;
+}
+
+.broadcast-green {
+    background: #578A54;
+    border: 1px solid #375735;
+    padding: 5px 1px 3px 8px;
+    color: #BEFFB9;
+    text-shadow: 1px 1px 1px #375735;
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+    font-style: normal;
+}
+
+.broadcast-blue {
+    background: #677992;
+    border: 1px solid #414D5E;
+    padding: 5px 1px 3px 8px;
+    color: #C1DAFF;
+    text-shadow: 1px 1px 1px #414D5E;
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+    font-style: normal;
+}
+
+.ps-room.ps-room-light.scrollable p {
+    color: #D2B6E1;
+    text-shadow: 0 0 2px #2C0832;
+}
+
+.ps-room.ps-room-light {
+    background: rgba(90, 40, 93, 0.6);
+    border-color: #855CA4;
+    color: #000000;
+    text-shadow: 0 0 2px #FFFFFF;
+}
+
+.ps-room.ps-room-light.scrollable .button {
+    background: rgb(187, 145, 191);
+    border: 1px solid #855CA4;
+    color: #2F1643;
+    text-shadow: 0 0 2px #fff;
+}
+
+.ps-room.ps-room-light.scrollable .button:hover {
+    background: rgb(168, 123, 172);
+    border: 1px solid #855CA4;
+    color: #2F1643;
+    text-shadow: 0 0 2px #fff;
+}
+
+.tablist li:first-child .button {
+    border: 1px solid #AD98BD;
+    background: #CFABEA;
+    color: #3F0A3E;
+    text-shadow: 0 0 2px #fff;
+}
+
+.tablist li:first-child .button:hover {
+    border: 1px solid #AD98BD;
+    background: #DDC3F0;
+    color: #3F0A3E;
+    text-shadow: 0 0 2px #fff;
+}
+
+.tablist .button {
+    border: 1px solid #AD98BD;
+    background: #E0BDFA;
+    color: #3F0A3E;
+    text-shadow: 0 0 2px #fff;
+}
+
+.tablist .button:hover {
+    border: 1px solid #AD98BD;
+    background: #E9CEFC;
+    color: #3F0A3E;
+    text-shadow: 0 0 2px #fff;
+}
+
+.ps-room.ps-room-light.scrollable .rooms-officialchatrooms, .ps-room.ps-room-light.scrollable .rooms-chatrooms {
+    color: #CDAFDB;
+    text-shadow: 0 0 2px #12011D;
+    font-variant: small-caps;
+}
+
+.roomcounters .picon {
+    background: url("http://i.imgur.com/IVkGS0a.png") no-repeat !important;
+}
+
+.roomlist a.ilink {
+    border: 2px solid #CA8999;
+    background: rgba(161,83,102,0.8);
+    color: #FFF;
+    text-shadow: 0 0 2px #000;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+.roomlist a.ilink:hover {
+    border: 2px solid #F3BDCA;
+    background: rgba(193, 126, 142, 0.8);
+    color: #FFF;
+    text-shadow: 0 0 2px #000;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+.roomcounters button {
+    background: #C5A5D5;
+    color: #2A143B;
+    text-shadow: 0 0 2px #fff;
+    border: 1px solid #804EA6;
+}
+
+.roomcounters button:hover {
+    background: #DAC2E6;
+    color: #2A143B;
+    text-shadow: 0 0 2px #fff;
+    border: 1px solid #804EA6;
+}
+
+/*HEADER CSS*/
+  
+#header {
+    background: rgba(255, 255, 255, 0.5) url("http://i84.servimg.com/u/f84/19/35/71/39/pokemo10.png") no-repeat 0 0;
+}
+
+.header .logo {
+    display: none;
+    opacity: 0;
+}
+.maintabbar .overflow .button {
+    height: 37px;
+    width: 32px;
+    font-size: 12pt;
+    margin: 0;
+    border-radius: 0;
+    background: rgb(205, 176, 221);
+    border: 1px solid #855CA4;
+    color: #2F1643;
+}
+.maintabbar .overflow .button:hover {
+    height: 37px;
+    width: 32px;
+    font-size: 12pt;
+    margin: 0;
+    border-radius: 0;
+    background: rgb(224, 196, 240);
+    border: 1px solid #855CA4;
+    color: #2F1643;
+}
+.userbar button.icon {
+    background: #9B73BB;
+    border: 1px solid #B48BD5;
+    color: #372745;
+}
+    
+.userbar button.icon:hover {
+    background: #9B73BB;
+    border: 1px solid #855CA4;
+    color: #372745;
+}
+    
+.maintabbarbottom {
+    height: 6px;
+    background: #956AB6!important;
+    border-color: #855CA4;
+    border-left: 0;
+}
+    
+.tabbar a.button.cur, .tabbar a.button.cur:hover {
+    color: #492765;
+    background: url(http://i.imgur.com/7T1XuhL.png) repeat;
+    text-shadow: 0 0 2px #fff;
+    border-color: #855CA4;
+    cursor: default;
+}
+    
+.tabbar a.button {
+    color: #2F1643;
+    text-shadow: 0 0 2px white;
+    border: solid 1px #855CA4;
+    background: url(http://image.noelshack.com/fichiers/2016/17/1461674648-iojii.png);
+}
+    
+.tabbar a.button:hover {
+    color: #2F1643;
+    text-shadow: 0 0 2px white;
+    border: solid 1px #855CA4;
+    background: url(http://image.noelshack.com/fichiers/2016/17/1461674880-iojii.png);
+}
+    
+.header .tabbar .closebutton {
+    color: #5E4573;
+}
+
+.header .tabbar .closebutton:hover {
+    color: #A92727;
+}
+    
+.tabbar a.button.subtle-notifying, .tabbar a.button.subtle-notifying:hover {
+    color: #C74A75;
+    text-shadow: 0 0 1px #FFFFFF;
+}
+    
+.header .tabbar a.button.notifying {
+    background: #FFBAD8;
+    color: #492765;
+    text-shadow: 0 0 2px #fff;
+    font-style: italic;
+}
+    
+.header .tabbar a.button.notifying:hover {
+    background: #F0ACCA;
+    color: #492765;
+    text-shadow: 0 0 2px #fff;
+    font-style: italic;
+}
+    
+/*MAINMENUWRAPPER CSS*/
+
+.teamselect:disabled, .teamselect:disabled:hover {
+    background: rgba(198, 93, 128, 0.5);
+    color: #FFFFFF;
+    text-shadow: 0 0 2px #000;
+ }
+ 
+.teamselect:disabled strong {
+    text-shadow: 0 0 2px #fff;
+}
+
+.teamselect:disabled:hover {
+    color: #000000;
+    text-shadow: 0 0 2px #fff;
+    background:rgb(206, 198, 211);
+}
+
+.button.disabled, .button.disabled:hover, .button.disabled:active, .mainmenuwrapper .menugroup .button.disabled, .mainmenuwrapper .menugroup .button.disabled:hover, .mainmenuwrapper .menugroup .button.disabled:active {
+    cursor: default;
+    background: #D7BCE5;
+    border-color: #956AB6;
+    border-style: solid;
+    text-shadow: none;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    color: #956AB6;
+    text-shadow: 0 0 2px #fff;
+}
+
+.menugroup .teamselect strong {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #000000;
+    font-variant: normal;
+}
+
+.menugroup {
+    background: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.menugroup .select {
+    background: rgba(225,112,152,0.8);
+    border: 1px solid #EA97B4;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-size: 11pt;
+    text-shadow: 0 -0.6px 0px #7F4E75;
+}
+
+.menugroup .select:hover {
+    background: rgba(225, 112, 152, 0.9);
+    border: 1px solid #EA97B4;
+}
+
+.menugroup .button.mainmenu1 {
+    background: url(http://image.noelshack.com/fichiers/2016/17/1461658920-vzoejbjzr-btjbir.png);
+    border-color: #855CA4;
+    border-bottom: 5px solid #4D2E64;
+}
+
+.menugroup .button.mainmenu1:hover {
+    background: url(http://image.noelshack.com/fichiers/2016/17/1461662296-vzoejbjzr-btjbir.png);
+    border-color: #855CA4;
+    border-bottom: 5px solid #422857;
+}
+
+.menugroup .button.mainmenu2, .menugroup .button.mainmenu3, .menugroup .button.mainmenu4, .menugroup .button.mainmenu5 {
+    background: url(http://i.imgur.com/OvmAilO.png?1);
+    border: #87364C;
+    border-bottom: 4px solid #6F2B3D;
+    font-variant: small-caps;
+}
+
+.menugroup .button.mainmenu2:hover, .menugroup .button.mainmenu3:hover, .menugroup .button.mainmenu4:hover, .menugroup .button.mainmenu5:hover {
+    background: url(http://i.imgur.com/3l6FNDp.png?1);
+    border: #fff;
+    border-bottom: 4px solid #833C4F;
+    font-variant: small-caps;
+}
+
+.mainmenufooter a {
+    text-decoration: underline;
+    color: #DBBBF3;
+}
+
+.mainmenufooter a:hover {
+    text-decoration: underline;
+    color: #BD9BD6;
+}
+
+.pm-log {
+    background: #f4e1fd url("http://pldh.net/media/pokemon/gen6/oras/635.png") no-repeat right top;
+    color: #311043;
+    border: 1px solid #855CA4;
+    text-shadow: 0 0 2px #fff;
+    background-position: 215px -32px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.pm-window h3 {
+    background: url("http://i.imgur.com/7T1XuhL.png") repeat;
+    color: #381C50;
+    font-size: 11pt;
+    border: 1px solid #855CA4;
+    text-shadow: 0 0 2px #fff;
+}
+
+.pm-window h3:hover {
+    background: url("http://i.imgur.com/7T1XuhL.png") repeat;
+    color: #5B476D;
+    font-size: 11pt;
+    border: 1px solid #855CA4;
+    text-shadow: 0 0 2px #fff;
+}
+
+.pm-window.focused h3, .pm-window.focused h3:hover {
+    border: 1px solid #855CA4;
+    background: url("http://i.imgur.com/7T1XuhL.png") repeat;
+    color: #5B476D;
+    text-shadow: 0 0 2px #fff;
+}
+
+.pm-window h3.pm-notifying {
+    background: url(http://image.noelshack.com/fichiers/2016/17/1461776172-ofezjeorgjotrzjorg.png);
+    color: #FEEFB9;
+    font-size: 11pt;
+    border: 1px solid #9B7029;
+    text-shadow: 0 0 2px #000;
+}
+
+.pm-log-add {
+    color: black;
+    border: 1px solid #855CA4;
+    background: url("http://i.imgur.com/7T1XuhL.png") repeat;
+}
+    
+.pm-log-add .textbox {
+    border-color: #855CA4;
+}
+
+.pm-window h3:hover .minimizebutton, .pm-window h3 .closebutton, .pm-window h3 .minimizebutton {
+    color: #F3E0EC;
+}
+
+.pm-window h3 .closebutton:hover {
+    color: #F7A4A4;
+}
+
+.pm-window h3 .minimizebutton:hover {
+    color: #F7D0A4;
+}
+
+.pm-window h3 .closebutton:hover + .minimizebutton {
+    color: #F3E0EC !important;
+}
+
+.newsentry {
+    font-size: 9pt;
+    padding: 1px 10px;
+    border-bottom: 1px solid #AAAAAA;
+    text-shadow: 0 0 2px #fff;
+    color: #451E63;
+}
+
+
+/* CHAT CSS */
+
+.chat-log {
+    border-bottom: 1px solid #919090;
+    border-left: 1px solid #E1E5EA;
+    background: rgba(239, 252, 242, 0.9)  url(" ?1") no-repeat right top;
+}
+
+.chat-log-add {
+    padding: 3px 4px 0;
+    border-top: 1px solid #855CA4;
+    background: url("http://image.noelshack.com/fichiers/2016/17/1461794382-dsbfbrebersbqrqbe.png") repeat;
+    text-shadow: 0 0 2px #000;
+}
+    
+.chat-log-add .textbox {
+    border-color: #855CA4;
+}
+
+.chat em {
+    padding: 0 4px 0 3px;
+    font-style: normal;
+    text-shadow: 0 0 2px #fff;
+}
+
+.userlist {
+    border-right: 1px solid #855CA4;
+}
+    
+.userlist li {
+    background: rgba(255,255,255,0.8);
+    border-bottom: 1px solid #C1C1C1;
+    text-shadow: 0 0 2px #fff;
+    color: #34213B;
+}
+  
+.userlist li em.group {
+    color: #393939;
+}
+
+.userlist li button:hover, .userlist-minimized .userlist-count:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/*TOURNAMENTS CSS*/
+
+.tournament-title {
+    font-weight: 700;
+    color: #240F37;
+    text-shadow: 0 0 2px #fefefe;
+    background: url("http://image.noelshack.com/fichiers/2016/17/1461674648-iojii.png");
+    font-variant: small-caps;
+    font-size: 12pt;
+}
+.tournament-status, .tournament-toggle {
+    border-left: 1px #855CA4 solid;
+    background: url("http://i.imgur.com/7T1XuhL.png") repeat;
+    border-right: #956AB7;
+}
+
+.tournament-bracket {
+    max-height: 200px;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 9pt;
+    background: rgba(243, 224, 236, 0.60);
+    text-shadow: 0 0 2px #fff;
+}
+
+.tournament-tools.active {
+    display: block;
+    background: url(http://image.noelshack.com/fichiers/2016/17/1461781426-ifhureieer.png);
+}
+
+/* END TOURNAMENTS CSS*/
+
+/*TEAMBUILDER CSS*/
+    
+
+
+.teamchartbox {
+    border-color: #735483;
+}
+
+.teambar button {
+    background: url("http://i.imgur.com/kXBK60j.png?1") !important;
+    color: #361D49 !important;
+    text-shadow: 0px 0px 2px #FFF !important;
+    border-color: #735483 !important;
+}
+
+.teambar button:hover {
+    background: url("http://i.imgur.com/nVKdc1d.png?2") !important;
+    color: #361D49 !important;
+    text-shadow: 0px 0px 2px #FFF !important;
+    border-color: #735483 !important;
+}
+
+.teambar button:disabled, .teambar button:disabled:hover, .teambar button:disabled:active {
+    background: #735483 !important;
+    border-color: #735483 !important;
+}
+
+
+.utilichart .pokemonnamecol {
+    color: #D7BBE5;
+}
+
+.teambuilder-results .utilichart .col {
+    color: #D3B7E1;
+    text-shadow: 0 0 2px #000;
+}
+    
+.utilichart .labelcol em, .utilichart .widelabelcol em, .utilichart .pplabelcol em, .utilichart .statcol em, .utilichart .bstcol em {
+    color: #A489B2;
+}
+
+.setmenu button, .teamlist button {
+    border: 1px solid #855CA4;
+    background: #CFB1DD;
+    color: #451138;
+    text-shadow: 0 0 2px #fff;
+}
+
+.setmenu button:hover, .teamlist button:hover {
+    border-radius: 4px;
+    padding: 2px 5px;
+    margin: 0;
+    font-size: 9pt;
+    font-family: Verdana,sans-serif;
+    border: 1px solid #855CA4;
+    background: #AF8EBE;
+    color: #451138;
+    text-shadow: 0 0 2px #fff;
+}
+
+.teambuilder-results .firstresult a:hover, .teambuilder-results .result a:hover {
+    border: 1px solid #B686D9;
+    background: rgba(54, 40, 60, 0.46);
+}
+
+.teambuilder-results .result a.cur {
+    border-color: #956995;
+    background: rgba(63,50,65,0.50);
+}
+
+.teambuilder-results .result a.cur:hover {
+    border-color: #B481B4;
+    background: rgba(118, 91, 123, 0.57);
+}
+
+.setchart {
+    border: 1px solid #735483;
+    background: #D9C5E3 no-repeat;
+    margin-top: 8px;
+}
+    
+.setchart-nickname {
+    background: #B99CC7;
+    border-color: #735483;
+}
+
+.setchart label, .setchart-nickname label {
+    color: #735483;
+    text-shadow: 1px 1px #F9EEFF;
+}
+
+.setchart-nickname input, .setchart input, .setdetails, .setstats {
+    border-color: #9674A8;
+}
+
+.setchart-nickname input:hover, .setchart input:hover, .setdetails:hover, .setstats:hover {
+    border-color: #735483;
+}
+
+.teamlist .team .picon span {
+    display: none;
+}
+
+.teamlist .team {
+    background: rgba(207,177,221,0.70);
+    color: #462456;
+    text-shadow: 0 0 2px #FFF;
+    border: 1px solid #855CA4;
+}
+
+.teamlist .team:hover {
+    background: rgba(230, 206, 242, 0.7);
+    color: #462456;
+    text-shadow: 0 0 2px #FFF;
+    border: 1px solid #855CA4;
+}
+
+.teambuilder-results .utilichart .sortrow {
+    background: #E3C5E2;
+    border-top: 1px solid #956AB6;
+    border-bottom: 1px solid #956AB6;
+    color: #491B3E;
+    text-shadow: 0 0 2px #fff;
+}
+
+.utilichart h3, .dexentry h3, .resultheader h3 {
+    background: #B99CC7;
+    border-color: #735483;
+}
+
+.utilichart .typecol img {
+   opacity: 0.85;
+}
+
+.folderpane h3 {
+    margin: 0;
+    padding: 13px 0 0 0;
+    height: 17px;
+    font-size: 9pt;
+    background: #F2D8FF;
+    color: black;
+    border-right: 1px solid #CBA8DD;
+}
+
+.folderpane h3 {
+    margin: 0;
+    padding: 13px 0 0 0;
+    height: 17px;
+    font-size: 9pt;
+    background: #F2D8FF;
+    color: black;
+    border-right: 1px solid #CBA8DD;
+}
+
+.folderpane {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    border-left: 5px solid #F2D8FF;
+    width: 154px;
+    overflow: auto;
+    overflow-x: hidden;
+    background: rgba(242, 216, 255, 0);
+}
+
+.folderlistafter:before, .folderlistbefore:before {
+    display: table-cell;
+    background: #F2D8FF;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-right: 1px solid #CBA8DD;
+    content: '';
+}
+.folder .selectFolder {
+    display: block;
+    border: 0;
+    background: rgb(229, 188, 250);
+    color: black;
+    width: auto;
+    max-width: 146px;
+    padding-top: 7px;
+    height: 23px;
+    font-size: 9pt;
+    font-family: Verdana,sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    border-right: 1px solid #CBA8DD;
+}
+.folder .selectFolder:hover {
+    display: block;
+    border: 0;
+    background: rgb(238, 207, 254);
+}
+.folderlist .foldersep:before {
+    display: table-cell;
+    height: 15px;
+    background: #F2D8FF;
+    content: '';
+}
+
+/* POPUP CSS*/
+
+.ps-popup {
+    background: #DBACB7;
+    color: #000000;
+    border: 1px solid #99596B;
+    text-shadow: 0 0 2px #FFFFFF;
+}
+
+.popupmenu h3 {
+    font-size: 10pt;
+    color: #2F2735;
+    text-shadow: 0 0 2px #fff;
+    font-variant: small-caps;
+}
+    
+.ps-popup .buttonbar button {
+    background: #AD81CF;
+    border: 1px solid #52107C;
+    padding: 3px 10px;
+    color: #52107C;
+    text-shadow: 0 0 2px #FCE3FC;
+    border-bottom: 1px solid #52107C;
+}
+
+.ps-popup .buttonbar button:hover {
+    background: #956AB6;
+     border-bottom: 1px solid #52107C;
+}
+
+.ps-popup hr {
+    border: none;
+    border-top: 1px solid #99596B;
+}
+
+.popupmenu button.sel {
+    border: 1px solid #99596B;
+}
+
+.popupmenu button.sel:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #723A49;
+}
+
+.popupmenu button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #99596B;
+}
+
+/* POPUP CSS END*/
+
+/* END LADDER TABLES CSS*/
+
+.ladder table, .ladder td, .ladder th {
+    border: 1px solid #271237;
+}
+    
+.ladder th {
+    background: url("http://i.imgur.com/7T1XuhL.png") repeat;
+    color: #000;
+}
+    
+.ladder td {
+    background: rgba(255, 255, 255, 0.3);
+}
+    
+.ladder td:hover  {
+    border-collapse: collapse;
+    border: 1px solid #271237;
+    background: rgba(255, 255, 255, 0.43);
+    color: #000;
+    font-size: 11pt;
+}
+    
+.ladder td, .ladder th {
+    padding: 5px 5px;
+}
+
+/* END LADDER TABLES CSS*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+********************************
+*~*~*~*~* DARKMODE CSS *~*~*~*~*
+********************************
+*/
+
+
+/* DARK GENERAL CSS */
+
+.dark body {
+    background-image: url("http://i.imgur.com/NgRnZQJ.jpg") !important;
+}
+
+.dark .ps-room.ps-room-light {
+    background: rgba(0, 0, 0, 0.7);
+    border-left: 1px solid #891270;
+    color: #DDD;
+    text-shadow: none;
+}
+
+.dark .ps-room.ps-room-light .button {
+    background: #A8C4AE;
+    border-color: #B51B73;
+    color: #62323E;
+    text-shadow: 1px 1px #8EA99A;
+}
+
+.dark .ps-room.ps-room-light .button:hover {
+    background: #8EA99A;
+}
+
+.ps-room.ps-room-light.scrollable .rooms-officialchatrooms, .ps-room.ps-room-light.scrollable .rooms-chatrooms {
+    color: #C1454F;
+    text-shadow: 0 0 2px #000;
+    font-variant: small-caps;
+}
+
+.dark .roomlist a.ilink {
+    border: 2px solid #CA8999;
+    background: #7F4451;
+    color: #FFF;
+    text-shadow: 0 0 2px #000;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+.dark .roomlist a.ilink small {
+    color: #EBBEC9;
+}
+
+.dark .roomlist a.ilink:hover {
+    background: #62323E;
+    border: 2px solid #9E6875;
+    color: #FFF;
+}
+
+.dark .roomlist a.ilink:hover small {
+    color: #BA8994;
+}
+
+/* DARK HEADERS CSS */
+
+.dark #header {
+    background: rgba(0, 0, 0, 0.8) url("http://i84.servimg.com/u/f84/19/35/71/39/pokemo10.png") no-repeat 0 0;
+}
+
+.dark .header .logo {
+    display: none;
+    opacity: 0;
+}
+
+.dark .maintabbarbottom {
+    background: #62323E !important;
+    border-color: #891270 !important;
+}
+
+.dark .tabbar a.button.notifying {
+    background: #EB78B3;
+    border-color: #981076;
+    color: #981076;
+    text-shadow: 1px 1px #CE6198;
+}
+
+.dark .tabbar a.button.notifying:hover {
+    background: #CE6198;
+}
+
+.dark a.button.subtle-notifying {
+    color: #C1454F !important;
+}
+
+.dark .tabbar a.button.cur, .dark .tabbar a.button.cur:hover {
+    background: #62323E;
+    border-color: #891270;
+    color: #A8C4AE;
+    text-shadow: 1px 1px #891270;
+}
+
+.dark .tabbar a.button {
+    background: #A8C4AE;
+    border-color: #B51B73;
+    color: #62323E;
+    text-shadow: 1px 1px #8EA99A;
+}
+
+.dark .tabbar a.button:hover {
+    background: #8EA99A;
+}
+
+.dark .tabbar .closebutton {
+    color: #C1454F;
+}
+
+.dark .tabbar .closebutton:hover {
+    color: #CD1421;
+}
+
+.dark .userbar button.icon {
+    background: #A8C4AE;
+    border-color: #B51B73;
+    color: #62323E;
+    text-shadow: 1px 1px #8EA99A;
+}
+
+.dark .userbar button.icon:hover {
+    background: #8EA99A;
+}
+
+.dark .unread {
+    background: none;
+}
+
+/* DARK MAINMENUWRAPPER CSS */
+
+.dark .mainmenuwrapper {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.dark .menugroup {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.dark .menugroup label {
+    color: #86A093;
+}
+
+.dark .menugroup .button.mainmenu1 {
+    background: url("http://i.imgur.com/wfVirsa.png?1");
+    border-color: #CA8999;
+    border-width: 2px;
+}
+
+.dark .menugroup .button.mainmenu1 small {
+    color: #EBBEC9;
+}
+
+.dark .menugroup .button.mainmenu1:hover {
+    background: url("http://i.imgur.com/eOcLvKh.png?1");
+    border-color: #9E6875;
+}
+
+.dark .menugroup .button.mainmenu1:hover small {
+    color: #BA8994;
+}
+
+.dark .select {
+    background: url("http://i.imgur.com/VhninY4.png?1");
+    border-color: #426B55;
+    border-width: 2px;
+    color: #62323E;
+    text-shadow: none;
+}
+
+.dark .select:hover {
+    background: url("http://i.imgur.com/o3boxNK.png?1");
+    border-color: #335744;
+    color: #DFA5B3;
+}
+
+.dark .select:disabled, .dark .select:disabled:hover {
+    border-color: #335744;
+    border-width: 2px;
+    background: rgba(136, 162, 149, 0.65);
+    color: #335744;
+    text-shadow: 0px 0px 2px #A8C4AE;
+}
+
+.dark .menugroup .select:disabled strong {
+    color: #335744;
+    text-shadow: 0px 0px 2px #A8C4AE;
+}
+
+.dark .menugroup .button.mainmenu2, .dark .menugroup .button.mainmenu3, .dark .menugroup .button.mainmenu4, .dark .menugroup .button.mainmenu5 {
+    background: url("http://i.imgur.com/VhninY4.png?1");
+    border-color: #426B55;
+    border-width: 2px;
+    color: #62323E;
+    text-shadow: 0px -1px #59816C;
+}
+
+.dark .menugroup .button.mainmenu2:hover, .dark .menugroup .button.mainmenu3:hover, .dark .menugroup .button.mainmenu4:hover, .dark .menugroup .button.mainmenu5:hover {
+    background: url("http://i.imgur.com/o3boxNK.png?1");
+    border-color: #335744;
+    color: #DFA5B3;
+    text-shadow: 0px -1px #3B5F4D;
+}
+
+.dark .pm-window h3 {
+    background: #62323E url("http://i.imgur.com/IVkGS0a.png") no-repeat;
+    background-position: 225px;
+    border-color: #891270;
+    color: #A8C4AE;
+    text-shadow: 1px 1px #891270;
+}
+
+.dark .pm-window h3:hover {
+    background: #62323E url("http://i.imgur.com/IVkGS0a.png") no-repeat;
+    background-position: 225px;
+    color: #C9E2CF;
+}
+
+.dark .pm-window h3 .closebutton, .dark .pm-window h3 .minimizebutton {
+    color: #A8C4AE;
+}
+
+.dark .pm-window h3 .minimizebutton:hover, .dark .pm-window h3:hover .minimizebutton {
+    color: #F2CB89;
+}
+
+.dark .pm-window h3 .closebutton:hover {
+    color: #F28989;
+}
+
+.dark .pm-window h3 .closebutton:hover + .minimizebutton {
+    color: #95B09B !important;
+}
+
+.dark .pm-window h3 small {
+    color: #C1454F;
+}
+
+.dark .pm-window.focused h3, .dark .pm-window.focused h3:hover {
+    background: #945967 url("http://i.imgur.com/4CVwCb8.gif") no-repeat;
+    background-position: 225px -8px;
+    border-color: #C1454F;
+}
+
+.dark .pm-window h3.pm-notifying {
+    background: #EB78B3 url("http://i.imgur.com/TwaQEiV.png") no-repeat;
+    background-position: 225px;
+    border-color: #981076;
+    color: #981076;
+    text-shadow: 1px 1px #CE6198;
+}
+
+.dark .pm-window h3.pm-notifying:hover {
+    background: #CE6198 url("http://i.imgur.com/TwaQEiV.png") no-repeat;
+    background-position: 225px;
+}
+
+.dark .pm-log {
+    background: rgba(239, 252, 242, 0.8);
+    border-color: #891270;
+    color: #000;
+}
+
+.dark .pm-window.focused .pm-log {
+    border-color: #C1454F;
+}
+
+.dark .newsentry {
+    border-bottom: 1px solid #A95595;
+}
+
+.dark .newsentry h4 {
+    color: #C1454F;
+}
+
+.dark .pm-log a {
+    color: #921175;
+}
+
+.dark .pm-log a:visited {
+    color: #E259A2;
+}
+
+.dark .challenge {
+    background: rgba(168, 196, 174, 0.99);
+    border-color: #B2454C;
+    color: #62323E;
+    text-shadow: 1px 1px 1px #8EA99A;
+}
+
+.dark .challenge .buttonbar button {
+    background: #C9E6D0;
+    padding: 2px 8px;
+    border: 1px solid #B2454C;
+    color: #D25F66;
+    text-shadow: 1px 1px 1px #BBDAC2;
+}
+
+.dark .challenge .buttonbar button:hover {
+    background: #BBDAC2;
+}
+
+.dark .pm-log-add {
+    background: rgba(0, 0, 0, 0.3);
+    border-color: #891270;
+}
+
+.dark .pm-window.focused .pm-log-add {
+    border-color: #6A7577;
+}
+
+.dark .mainmenufooter a {
+    text-decoration: underline;
+    color: #DBBBF3;
+}
+
+.dark .mainmenufooter a:hover {
+    text-decoration: underline;
+    color: #BD9BD6;
+}
+
+/* DARK CHAT CSS */
+
+.dark .chat-log {
+    background: rgba(239, 252, 242, 0.8);
+    color: #000;
+    text-shadow: none;
+}
+
+.dark .chat small {
+    color: #555;
+}
+
+.dark button.subtle {
+    color: #C1454F;
+}
+
+.dark .highlighted {
+    background: rgba(246, 128, 162, 0.5);
+}
+
+.dark .chat.mine {
+    background: none;
+}
+
+.dark .chat-log a {
+    color: #921175;
+}
+
+.dark .chat-log a:visited {
+    color: #E259A2;
+}
+
+.dark .chat-log a.ilink {
+    color: #28574C;
+}
+
+.dark .chat-log a.ilink:hover {
+    color: #1D725E;
+}
+
+.dark .message-announce {
+    background: #849791;
+    text-shadow: 0px 0px 2px #1D725E;
+}
+
+.dark .infobox {
+    border-color: #28574C;
+}
+
+.dark .infobox.tournaments-info {
+    background: url("http://i.imgur.com/uxi1ki5.png?1") right no-repeat;
+}
+
+.dark code {
+    border: 1px solid #C0C0C0 !important;
+    background: #EEEEEE !important;
+    color: #000 !important;
+}
+
+.dark .greentext {
+    color: #187902;
+}
+
+.dark .chat-log-add {
+    background: rgba(0, 0, 0, 0);
+}
+
+.dark .chat-log-add .textbox, .dark .pm-log-add .textbox, .dark .battle-log-add .textbox, .dark .textbox {
+    background: #DDD;
+    border-color: #891270;
+    color: #555;
+}
+
+.dark .chat-log-add .textbox:hover, .dark .pm-log-add .textbox:hover, .dark .battle-log-add .textbox:hover, .dark .textbox:hover {
+    background: #EEE;
+}
+
+.dark .chat-log-add .textbox:focus, .dark .pm-log-add .textbox:focus, .dark .battle-log-add .textbox:focus, .dark .textbox:focus {
+    background: #EEE;
+    border-color: #6A7577;
+    color: #111;
+}
+
+.dark .userlist {
+    background: rgba(0, 0, 0, 0.3);
+    border-right: 1px solid #891270;
+}
+
+.dark .userlist em.group {
+    color: #C1454F;
+}
+
+.dark .userlist small span, .dark .userlist small {
+    color: #333;
+    text-shadow: 1px 1px 1px #CCC !important;
+}
+
+.dark .userlist li {
+    background: rgba(255,255,255,0.6);
+    border-color: #891270;
+}
+
+.dark .userlist strong, .dark .userlist span {
+    text-shadow: 1px 1px 2px #FFF;
+}
+
+.dark .userlist li button:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.dark .userlist-minimized .userlist-count, .dark .userlist-maximized .userlist-count {
+    background: rgba(255,255,255,0.6);
+    border-color: #891270;
+}
+
+.dark .userlist-minimized .userlist-count:hover {
+    background: rgba(255,255,255,0.8);
+}
+
+.dark .userlist-maximized .userlist-count:hover {
+    background: rgba(255,255,255,0.6);
+}
+
+/* DARK TOURNAMENTS CSS */
+
+.dark .tournament-title {
+    background: #A8C4AE;
+    border-color: #B51B73;
+    color: #62323E;
+    text-shadow: 1px 1px #8EA99A;
+}
+
+.dark .tournament-status, .dark .tournament-toggle {
+    background: #62323E;
+    border-color: #891270;
+    color: #A8C4AE;
+    text-shadow: 1px 1px #891270;
+}
+
+.dark .tournament-status:hover, .dark .tournament-toggle:hover {
+    background: #7F4451;
+}
+
+.dark .tournament-bracket {
+    background: rgba(239, 252, 242, 0.5);
+}
+
+.dark .tournament-box {
+    background: rgba(239, 252, 242, 0.5);
+    color: #000;
+    text-shadow: 0px 0px 2px #EEE;
+    border-color: #B51B73;
+}
+
+.dark .tournament-tools {
+    background: #A8C4AE;
+    border-color: #B51B73;
+    color: #62323E;
+    text-shadow: 1px 1px #8EA99A;
+}
+
+.dark .tournament-tools .button {
+    background: #62323E;
+    border-color: #891270;
+    color: #A8C4AE;
+    text-shadow: 1px 1px #891270;
+}
+
+.dark .tournament-tools .button:hover {
+    background: #7F4451;
+}
+
+/* DARK TEAMBUILDER CSS */
+
+.dark .teamchartbox {
+    border-color: #B51B73;
+}
+
+.dark .teambar button {
+    background: #A8C4AE !important;
+    border-color: #B51B73 !important;
+    color: #62323E !important;
+    text-shadow: 1px 1px #8EA99A !important;
+}
+
+.dark .teambar button:hover {
+    background: #8EA99A !important;
+}
+
+.dark .team {
+    border: 2px solid #CA8999;
+    background: #7F4451;
+    color: #FFF;
+    text-shadow: none;
+}
+
+.dark .team:hover {
+    background: #62323E;
+    border: 2px solid #9E6875;
+    color: #FFF;
+    text-shadow: none;
+}
+
+.dark .teamlist button, .dark .setmenu button {
+    background: none;
+    padding: 2px 5px;
+    border: none;
+    text-shadow: none;       
+}
+
+.dark .teamlist button:hover {
+    background: #62323E;
+    padding: 2px 4px;
+    border: 1px solid #9E6875;
+    color: #FFF;
+}
+
+.dark .setmenu button:hover {
+    background: #62323E;
+    padding: 1px 4px;
+    border: 1px solid #9E6875;
+    color: #FFF;
+}
+
+.dark .setchart {
+    background: #62323E no-repeat;
+    border-color: #891270;
+}
+
+.dark .setchart-nickname {
+    border: 2px solid #CA8999;
+    background: #7F4451;
+}
+
+.dark .setchart input, .dark .setchart-nickname input, .dark .setdetails, .dark .setstats {
+    background: #DDD;
+    border-color: #891270;
+    color: #555;
+}
+
+.dark .setdetails .detailcell {
+    border-color: #891270;
+}
+
+.dark .setchart input:hover, .dark .setchart-nickname input:hover, .dark .setdetails:hover, .dark .setstats:hover {
+    background: #EEE;
+}
+
+.dark .setchart input:focus, .dark .setchart-nickname input:focus, .dark .setdetails:focus, .dark .setstats:focus {
+    background: #EEE;
+    border-color: #6A7577;
+    color: #111;
+}
+
+.dark .setdetails:focus .detailcell {
+    border-color: #6A7577;
+}
+
+.dark .setchart .setdetails label, .dark .setchart .setstats label {
+    text-shadow: none;
+    color: #D25F66;
+}
+
+.dark .setchart label, .dark .setchart-nickname label {
+    color: #A8C4AE;
+    text-shadow: 1px 1px #891270;
+}
+
+.dark .utilichart h3, .dark .dexentry h3, .dark .resultheader h3 {
+    background: #A8C4AE;
+    border-color: #8EA99A;
+    color: #62323E;
+    text-shadow: 1px 1px #8EA99A;
+}
+
+.dark .utilichart .movenamecol {
+    color: #FFF;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.dark .utilichart .movedesccol {
+    color: #B0CEB4;
+    text-shadow: 1px 1px 1px #444;
+}
+
+.dark .utilichart .statcol, .dark .utilichart .bstcol, .dark .utilichart .labelcol, .dark .utilichart .widelabelcol, .dark .utilichart .pplabelcol {
+    color: #D25F66;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.dark .utilichart .labelcol em, .dark .utilichart .widelabelcol em, .dark .utilichart .pplabelcol em, .dark .utilichart .statcol em, .dark .utilichart .bstcol em {
+    color: #87A194;
+}
+
+.dark .teambuilder-results .result a.cur {
+    background: rgba(0, 0, 0, 0.35);
+    border-color: #87A194;
+}
+
+.dark .teambuilder-results .result a:hover, .dark .teambuilder-results .result a.cur:hover {
+    background: rgba(0, 0, 0, 0.5);
+    border-color: #D25F66;
+}
+
+.dark .teambuilder-results .result a:hover .dark .utilichart .movenamecol {
+    color: #D25F66;
+}
+
+/* DARK POPUP CSS */
+
+.dark .ps-popup {
+    background: rgba(168, 196, 174, 0.99);
+    border: 1px solid #546E5A;
+    color: #62323E;
+    text-shadow: 1px 1px 1px #8EA99A;
+}
+
+.dark .popupmenu h3, .dark .ps-popup a {
+    color: #D25F66;
+}
+
+.dark .ps-popup a.ilink {
+    color: #B2454C;
+}
+
+.dark .ps-popup a.ilink:hover {
+    color: #D25F66;
+}
+
+.dark .popupmenu button {
+    color: #62323E;
+}
+
+.dark .popupmenu button.sel {
+    border-color: #804F5A;
+}
+
+.dark .popupmenu button.sel:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #804F5A;
+}
+
+.dark .popupmenu button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: #804F5A;
+}
+
+.dark .ps-popup .buttonbar button {
+    background: #C9E6D0;
+    padding: 2px 8px;
+    border: 1px solid #B2454C;
+    color: #D25F66;
+    text-shadow: 1px 1px 1px #BBDAC2;
+}
+
+.dark .ps-popup .buttonbar button:hover {
+    background: #BBDAC2;
+}
+
+/* DARK LADDER CSS */
+
+.dark .ladder table, .dark .ladder td, .dark .ladder th {
+    border-color: #891270;
+}
+
+.dark .ladder th {
+    background: #62323E;   
+    color: #A8C4AE;
+    text-shadow: 1px 1px #891270;
+}
+
+.dark .ladder td {
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+}
+
+.dark .ladder td:hover {
+    background: rgba(0, 0, 0, 0.8);
+    text-shadow: 0px 0px 2px #C1454F;
+}
+
+/* DARK BATTLE CSS */
+
+.dark .ps-room.ps-room-opaque {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.dark .battle {
+    border-color: #891270;
+}
+
+.dark .leftbar, .dark .rightbar {
+    background: rgba(168, 196, 174, 0.5);
+    border-color: #96B29D;
+}
+
+.dark .battle-log {
+    background: rgba(239, 252, 242, 0.8);
+    border-color: #891270;
+    color: #000;       
+}
+
+.dark .battle-log h2, .dark .battle-log-add {
+    background: #62323E;
+    border-color: #891270;
+    color: #A8C4AE;
+    text-shadow: 1px 1px #891270;
+}
+
+.dark .battle-log .chat em {
+    color: #000;
+}
+
+.battle-log .rated strong {
+    background: #C1454F;
+}
+
+.dark .battle-log .chat strong, .dark .message-error, .dark .trainer strong {
+    color: #C1454F;
+}
+
+.dark .battle-controls {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 0px;
+}
+
+.dark .battle-controls .button {
+    background: #A8C4AE;
+    border-color: #B51B73;
+    color: #62323E;
+    text-shadow: 1px 1px #8EA99A;
+}
+
+.dark .battle-controls .button:hover {
+    background: #8EA99A;
+}
+
+/*BATTLE CSS */
+
+
+.battle-log h2 {
+    margin: 0.5em -8px;
+    padding: 4px 8px;
+    border: 1px solid #855CA4;
+    background: url("http://image.noelshack.com/fichiers/2016/17/1461674648-iojii.png");
+    border-left: 0;
+    border-right: 0;
+    font-family: Verdana,sans-serif;
+    font-size: 13pt;
+    color: #2F1643;
+    text-shadow: 0 0 2px #fff;
+}
+
+.battle-log {
+    position: absolute;
+    text-align: left;
+    border: 1px solid #AAAAAA;
+    background: #F8F1FC;
+    color: #2F1643;
+    top: 9px;
+    text-shadow: 0 0 2px #fff;
+    left: 640px;
+    right: -1px;
+    font-family: Verdana,sans-serif;
+    font-size: 10pt;
+    overflow: auto;
+    overflow-y: scroll;
+    border: 1px solid #855CA4;
+}
+
+.battle-log-add {
+    position: absolute;
+    text-align: left;
+    border: 1px solid #855CA4;
+    background: url("http://image.noelshack.com/fichiers/2016/17/1461658920-vzoejbjzr-btjbir.png");
+    color: black;
+    right: -1px;
+    font-family: Verdana,sans-serif;
+    font-size: 10pt;
+    text-shadow: 0 0 2px #000;
+}
+  /*END BATTLE CSS */
+  
+  /*PM Boxes*/
+  /*Lord Haji~Start*/
+
+.pm-window-richardadams h3 {
+  background: #B9FCEE url("http://pldh.net/media/pokexycons/150-mega-x.png") no-repeat !important;
+  background-position: 225px -8px !important;
+  color: #1EA88C !important;
+  text-shadow: 0px 0px 2px #B6F3E7 !important;
+  border-color: #1F6C5D !important;
+}
+
+.pm-window-richardadams h3:hover, .pm-window-masterfloat.focused h3, .pm-window-richardadams.focused h3:hover {
+  background: #A5EFE0 url("http://pldh.net/media/pokexycons/150-mega-x.png") no-repeat !important;
+  background-position: 225px -8px !important;
+  color: #1EA88C !important;
+  text-shadow: 0px 0px 2px #B6F3E7 !important;
+  border-color: #1F6C5D !important;
+}
+
+.pm-window-richardadams h3 small, .pm-window-masterfloat h3 .minimizebutton, .pm-window-richardadams h3 .closebutton, .pm-window-richardadams h3:hover .minimizebutton {
+  color: #106B59 !important;
+}
+
+.pm-window-richardadamsi h3 .closebutton:hover + .minimizebutton.minimizebutton {
+  color: #106B59 !important;
+}
+
+.pm-window-richardadams h3 .closebutton:hover {
+  color: #982929 !important;
+}
+
+.pm-window-richardadams h3 .minimizebutton:hover {
+  color: #987729 !important;
+}
+
+.pm-window-richardadams .pm-log, .pm-window-richardadams.focused .pm-log {
+  background: rgba(236, 255, 251, 0.9) url("http://54.201.116.10:8000/avatars/richardadams.gif") top right no-repeat !important;
+  border-color: #1F6C5D !important;
+}
+
+.pm-window-richardadams .pm-log-add, .pm-window-richardadams.focused .pm-log-add {
+  background: #52C7B0 !important;
+  border-color: #1F6C5D !important;
+}
+
+.pm-window-richardadams .pm-log-add .textbox {
+  border-color: #1F6C5D !important;
+  background: rgba(243, 255, 253, 0.95) !important;
+  color: #000 !important;
+}
+
+/*Haji~end*/
+
+
+
+
+/*******************************
+* IMPORTS - MIXINS - VARIABLES *
+*******************************/
+.astext {
+  border: none;
+  background: none;
+  padding: 0;
+  height: -20em;
+  font-family: Verdana,sans-serif;
+  font-size: 12px;
+  cursor: pointer; }
+
+.important {
+  font-weight: bold;
+  font-style: italic; }
+
+/* League Shop */
+.dark .ls-th {
+  background: #11484F;
+  border: 1px solid #000;
+  padding: 8px 10px;
+  color: #8BBDC6;
+  text-shadow: 1px 1px #000; }
+
+.dark .ls-th:hover {
+  color: #A2D6E1; }
+
+.ls-th {
+  background: #336251;
+  border: 1px solid #000;
+  padding: 8px 10px;
+  color: #BBCCC9;
+  text-shadow: 1px 1px #000; }
+
+.ls-th:hover {
+  color: #CFF0EB; }
+
+.ls-td {
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #999;
+  padding: 5px 6px;
+  text-align: center; }
+  .ls-td button {
+    background: #DDD;
+    border: 1px solid #999;
+    padding: 2px 10px; }
+  .ls-td button:hover {
+    background: #AED2DA;
+    border: 1px solid #1DA8C4;
+    color: #093E49; }
+
+.ls-td:hover {
+  background: rgba(235, 247, 245, 0.8); }
+  .ls-td:hover button {
+    background: #AED2DA;
+    border: 1px solid #1DA8C4;
+    color: #093E49; }
+
+/* Tour card button */
+.tourcard-btn {
+  background: #333;
+  padding: 3px 12px;
+  color: #088CC7;
+  text-shadow: 0px -1px 0px #000;
+  border: 1px solid #000; }
+
+.tourcard-btn:hover {
+  border-width: 2px;
+  border-color: #088CC7;
+  padding: 2px 11px;
+  color: #1CA0E2; }
+
+/* /nightclub - CSS */
+.nightclub {
+  background: rgba(0, 0, 0, 0.85);
+  margin: -3px;
+  text-shadow: 0px 0px 2px #000;
+  color: #FFF; }
+
+/* /poll & /tierpoll - CSS */
+.pollButton {
+  background: #F8F8F8;
+  color: #444;
+  border: 1px solid #AAA;
+  margin: 2px;
+  padding-top: 2px;
+  padding-bottom: 3px; }
+
+.pollButton:hover {
+  background: #F6F6F6;
+  border-color: #337AB7;
+  color: #276297; }
+
+/* /shop - CSS */
+.table-header {
+  background: #061C2A;
+  padding: 8px 25px;
+  border: 1px solid #768D9C;
+  color: #FFF;
+  font-size: 13pt; }
+
+.table-option {
+  background: rgba(248, 248, 248, 0.9);
+  border: 1px solid #768D9C;
+  text-align: center;
+  padding: 5px; }
+
+.table-option:hover {
+  background: rgba(255, 255, 255, 0.98); }
+
+.table-btn {
+  background: #CFE0EB;
+  border: none;
+  width: 100%;
+  padding: 20px 0px;
+  font-size: 11pt;
+  text-shadow: 1px 1px #FFF, 0px -1px #FFF; }
+
+.table-btn:hover {
+  color: #11527D; }
+
+/* Origin roomintro - CSS */
+.intro-tabbarbtn {
+  background: rgba(243, 197, 234, 0.2);
+  border-width: 0px 1px;
+  border-style: solid;
+  border-color: #693A60;
+  text-align: center;
+  width: 75px;
+  height: 35px;
+  color: #803C6F;
+  text-shadow: 0 0 2px #fce8f1;
+  margin: 0px 5px; }
+
+.intro-tabbarbtn:hover {
+  background: rgba(243, 197, 234, 0.7); }
+
+/* Touraments roomintro - CSS */
+.tour-btn {
+  background: none;
+  width: 100%;
+  height: 50px;
+  border: none;
+  padding-right: 8px;
+  padding-right: 30px;
+  color: #DDD;
+  font-size: 11pt;
+  text-align: right; }
+
+.tour-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: #8E85DE;
+  border-left: 4px solid #8E85DE; }
+
+/* ladder - CSS */
+.rankladder-headers {
+  background: #454E50;
+  color: #FFF;
+  text-shadow: 1px 1px #262B2C, -1px 1px #262B2C;
+  border: 1px solid #222; }
+
+.default-td {
+  padding: 5px;
+  border: 1px solid #222; }
+
+.rankladder-tds {
+  background: #FCFCFC; }
+
+.rankladder-tds:hover {
+  background: #EFEFEF; }
+
+.first {
+  background: #CFB53B;
+  color: #645722;
+  text-shadow: 0px 0px 2px #F6EAB9;
+  padding: 8px; }
+
+.first:hover {
+  background: #D5BD5B; }
+
+.second {
+  background: #C0C0C0;
+  color: #5B5B5B;
+  text-shadow: 0px 0px 2px #EEE;
+  padding: 8px; }
+
+.second:hover {
+  background: #CACACA; }
+
+.third {
+  background: #CD7F32;
+  color: #694725;
+  text-shadow: 0px 0px 2px #E4BA91;
+  padding: 8px; }
+
+.third:hover {
+  background: #CD9054; }
+
+/* /packshop & /showcase - CSS */
+.card-th {
+  background-color: #DCE9F9;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  border: 1px solid #CCC; }
+
+.card-td {
+  background: #FFF;
+  border: 1px solid #CCC;
+  text-align: center; }
+
+.card-div {
+  padding: 5px;
+  color: #333; }
+
+.card-th:hover, .card-td:hover {
+  color: #222; }
+
+.card-button {
+  margin: 0px 3px; }
+
+.card-td button, .card-button {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 15px;
+  color: #333;
+  text-shadow: 1px 1px 1px #FFF; }
+
+.card-td button:hover, .card-button:hover {
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid #CCC;
+  text-shadow: 1px 1px 1px #EEE; }
+
+.card-td button:focus, .card-button:focus {
+  background: rgba(227, 235, 246, 0.8);
+  border: 1px solid #9EB2D0; }
+
+.card-name {
+  background-color: #DCE9F9;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  font-size: 25pt;
+  font-weight: bold;
+  padding: 12px 18px 10px 18px;
+  border: 1px solid #CCC;
+  color: #444; }
+
+/* /sentence - CSS */
+.sentence-container {
+  background: #EEE;
+  padding: 4px;
+  border-width: 1px 15px;
+  border-style: solid;
+  border-color: #CCC;
+  color: #333;
+  text-shadow: 1px 1px #FFF;
+  font-weight: bold;
+  text-align: center; }
+
+/* /tasks - CSS */
+.tasks-th, .tasks-td {
+  border: 1px solid #803C6F;
+  padding: 3px 8px; }
+
+.tasks-th {
+  background: #FFE0A7;
+  color: #803C6F;
+  text-shadow: none;
+  font-style: italic; }
+
+.tasks-td:hover {
+  background: rgba(255, 255, 255, 0.3); }
+
+#selfassign-button {
+  background: #A5E6E6;
+  color: #074141;
+  text-shadow: 1px 0px 1px rgba(255, 255, 255, 0.8);
+  border: 1px solid #6BC1C1;
+  padding: 3px 7px; }
+
+#selfassign-button:hover {
+  background: #BDEBEB;
+  border: 1px solid #50B2B2; }
+
+#close-button {
+  background: #A6E6AD;
+  color: #07400F;
+  text-shadow: 1px 0px 1px rgba(255, 255, 255, 0.8);
+  border: 1px solid #6BC37A;
+  padding: 3px 7px; }
+
+#close-button:hover {
+  background: #BDECBE;
+  border: 1px solid #51B351; }
+
+#reopen-button {
+  background: #A6A6E6;
+  color: #070940;
+  text-shadow: 1px 0px 1px rgba(255, 255, 255, 0.8);
+  border: 1px solid #6B6BC3;
+  padding: 3px 7px; }
+
+#reopen-button:hover {
+  background: #BDBDEC;
+  border: 1px solid #5A51B3; }
+
+#delete-button {
+  background: #E6A6A6;
+  color: #400707;
+  text-shadow: 1px 0px 1px rgba(255, 255, 255, 0.8);
+  border: 1px solid #C36B6B;
+  padding: 3px 7px; }
+
+#delete-button:hover {
+  background: #ECBDBD;
+  border: 1px solid #B35151; }
+
+/* /gang info - CSS */
+.Rocket {
+  background: rgba(60, 60, 60, 0.5);
+  border: 1px solid #555;
+  color: #AAA; }
+
+.Rocket span {
+  color: #D40000;
+  text-shadow: 0px 0px 2px #AAA; }
+
+.Aqua {
+  background: rgba(175, 185, 190, 0.5);
+  border: 1px solid #ACC2CD;
+  color: #CFE5F0; }
+
+.Aqua span {
+  color: #05008D;
+  text-shadow: 0px 0px 2px #C7C8F0; }
+
+.Magma {
+  background: rgba(212, 0, 0, 0.5);
+  border: 1px solid #ECB9B9;
+  color: #F0C8C8; }
+
+.Magma span {
+  color: #8D0000;
+  text-shadow: 0px 0px 2px #F0C8C8; }
+
+.Flare {
+  background: rgba(237, 77, 5, 0.5);
+  border: 1px solid #E14102;
+  color: #FF8D4A; }
+
+.Flare span {
+  color: #C03A00;
+  text-shadow: 0px 0px 2px #FF8D4A; }
+
+.Galactic {
+  background: rgba(110, 203, 203, 0.5);
+  border: 1px solid #64B3B3;
+  color: #FFEAAE; }
+
+.Galactic span {
+  color: #FFCD46; }
+
+.Plasma {
+  background: rgba(156, 235, 219, 0.5);
+  border: 1px solid #4BB29D;
+  color: #C1FAEF; }
+
+.Plasma span {
+  color: #196455;
+  text-shadow: 0px 0px 2px #C1FAEF; }
+
+#lobby-userlist-user-niisama, #staff-userlist-user-niisama, #artshop-userlist-user-niisama, #1v1-userlist-user-niisama {
+  background: rgba(255, 255, 255, 0) url("http://i.imgur.com/wM5E2W5.gif") right no-repeat; }
+
+#lobby-userlist-user-hayleysworld, #thelotusleague-userlist-user-hayleysworld, #marketplace-userlist-user-hayleysworld {
+  background: rgba(255, 255, 255, 0) url("http://i.imgur.com/7a2mMxW.gif") right no-repeat; }
+
+#lobby-userlist-user-wndo, #smogontiers-userlist-user-wndo, #thearbiterleague-userlist-user-wndo, #leaguecentral-userlist-user-wndo {
+  background: rgba(255, 255, 255, 0) url("http://i.imgur.com/JIlrHtj.gif") right no-repeat; }
+
+#lobby-userlist-user-aurastormlucario, #casino-userlist-user-aurastormlucario, #lucarioslair-userlist-user-aurastormlucario, #arcadia-userlist-user-aurastormlucario, #staff-userlist-user-aurastormlucario {
+  background: rgba(255, 255, 255, 0) url("http://www.serebii.net/pokedex-dp/icon/448.gif") right no-repeat; }
+
+/************************************
+* IMPORTS - MIXINS - VARIABLES ~end *
+************************************/
+/***********************
+* Donation Benefit CSS *
+***********************/
+/****************************
+* Donation Benefit CSS ~end *
+****************************/
+/**************
+* General CSS *
+**************/
+/*******************
+* General CSS ~end *
+*******************/
+/*************
+* Header CSS *
+*************/
+/******************
+* Header CSS ~end *
+******************/
+/***************
+* Roomlist CSS *
+***************/
+/********************
+* Roomlist CSS ~end *
+********************/
+/***********
+* Chat CSS *
+***********/
+/****************
+* Chat CSS ~end *
+****************/
+/*******************
+* Tournaments CSS *
+******************/
+/***********************
+* Tournaments CSS ~end *
+***********************/
+/**********************
+* Mainmenuwrapper CSS *
+**********************/
+/***************************
+* Mainmenuwrapper CSS ~end *
+***************************/
+/************
+* Popup CSS *
+************/
+/*****************
+* Popup CSS ~end *
+*****************/
+/*************
+* Ladder CSS *
+*************/
+/******************
+* Ladder CSS ~end *
+******************/
+/**************
+  * General CSS *
+  **************/
+/*******************
+  * General CSS ~end *
+  *******************/
+/*************
+  * Header CSS *
+  *************/
+/******************
+  * Header CSS ~end *
+  ******************/
+/***************
+  * Roomlist CSS *
+  ***************/
+/********************
+  * Roomlist CSS ~end *
+  ********************/
+/***********
+  * Chat CSS *
+  ***********/
+/****************
+  * Chat CSS ~end *
+  ****************/
+/*******************
+  * Tournaments CSS *
+  ******************/
+/***********************
+  * Tournaments CSS ~end *
+  ***********************/
+/**********************
+  * Mainmenuwrapper CSS *
+  **********************/
+/*****************
+  * Popup CSS ~end *
+  *****************/
+/******************
+  * Teambuilder CSS *
+  ******************/
+/***********************
+  * Teambuilder CSS ~end *
+  ***********************/
+/*************
+  * Battle CSS *
+  *************/
+/******************
+  * Battle CSS ~end *
+  ******************/
+  
+
+ 
+/* ICONS START */
+#lobby-userlist-user-aeroliverpool, #staff-userlist-user-aeroliverpool, #tournaments-userlist-user-aeroliverpool, #battlelords-userlist-user-aeroliverpool, #pokefc-userlist-user-aeroliverpool, #shadowbanroom-userlist-user-aeroliverpool, #upperstaff-userlist-user-aeroliverpool, #marketplace-userlist-user-aeroliverpool, #icypath-userlist-user-aeroliverpool, #monotype-userlist-user-aeroliverpool, #videogames-userlist-user-aeroliverpool, #sports-userlist-user-aeroliverpool, #francais-userlist-user-aeroliverpool, #casino-userlist-user-aeroliverpool, #help-userlist-user-aeroliverpool, #thehappyplace-userlist-user-aeroliverpool, #socialmedia-userlist-user-aeroliverpool{
+background: url("http://pldh.net/media/pokexycons/384-mega.png") no-repeat right
+}
+#lobby-userlist-user-classyz, #staff-userlist-user-classyz, #tournaments-userlist-user-classyz, #battlelords-userlist-user-classyz, #pokefc-userlist-user-classyz, #shadowbanroom-userlist-user-classyz, #upperstaff-userlist-user-classyz, #marketplace-userlist-user-classyz, #icypath-userlist-user-classyz, #monotype-userlist-user-classyz, #videogames-userlist-user-classyz, #sports-userlist-user-classyz, #francais-userlist-user-classyz, #casino-userlist-user-classyz, #help-userlist-user-classyz, #thehappyplace-userlist-user-classyz, #socialmedia-userlist-user-classyz{
+background: url("http://pldh.net/media/pokecons_action/212.gif") no-repeat right
+}
+#lobby-userlist-user-alphapaul71, #staff-userlist-user-alphapaul71, #tournaments-userlist-user-alphapaul71, #battlelords-userlist-user-alphapaul71, #pokefc-userlist-user-alphapaul71, #shadowbanroom-userlist-user-alphapaul71, #upperstaff-userlist-user-alphapaul71, #marketplace-userlist-user-alphapaul71, #icypath-userlist-user-alphapaul71, #monotype-userlist-user-alphapaul71, #videogames-userlist-user-alphapaul71, #sports-userlist-user-alphapaul71, #francais-userlist-user-alphapaul71, #casino-userlist-user-alphapaul71, #help-userlist-user-alphapaul71, #thehappyplace-userlist-user-alphapaul71, #socialmedia-userlist-user-alphapaul71{
+background: url("http://media.pldh.net/pokecons_action/484.gif") no-repeat right
+}
+/* ICONS END */
+/* ICONS START */
+#lobby-userlist-user-aeroliverpool, #staff-userlist-user-aeroliverpool, #tournaments-userlist-user-aeroliverpool, #battlelords-userlist-user-aeroliverpool, #pokefc-userlist-user-aeroliverpool, #shadowbanroom-userlist-user-aeroliverpool, #upperstaff-userlist-user-aeroliverpool, #marketplace-userlist-user-aeroliverpool, #monotype-userlist-user-aeroliverpool, #videogames-userlist-user-aeroliverpool, #sports-userlist-user-aeroliverpool, #francais-userlist-user-aeroliverpool, #casino-userlist-user-aeroliverpool, #help-userlist-user-aeroliverpool, #thehappyplace-userlist-user-aeroliverpool, #socialmedia-userlist-user-aeroliverpool, #pokeindia-userlist-user-aeroliverpool, #scartysrealm-userlist-user-aeroliverpool{
+background: url("http://pldh.net/media/pokexycons/384-mega.png") no-repeat right
+}
+#lobby-userlist-user-classyz, #staff-userlist-user-classyz, #tournaments-userlist-user-classyz, #battlelords-userlist-user-classyz, #pokefc-userlist-user-classyz, #shadowbanroom-userlist-user-classyz, #upperstaff-userlist-user-classyz, #marketplace-userlist-user-classyz, #monotype-userlist-user-classyz, #videogames-userlist-user-classyz, #sports-userlist-user-classyz, #francais-userlist-user-classyz, #casino-userlist-user-classyz, #help-userlist-user-classyz, #thehappyplace-userlist-user-classyz, #socialmedia-userlist-user-classyz, #pokeindia-userlist-user-classyz, #scartysrealm-userlist-user-classyz{
+background: url("http://pldh.net/media/pokecons_action/212.gif") no-repeat right
+}
+#lobby-userlist-user-alphapaul71, #staff-userlist-user-alphapaul71, #tournaments-userlist-user-alphapaul71, #battlelords-userlist-user-alphapaul71, #pokefc-userlist-user-alphapaul71, #shadowbanroom-userlist-user-alphapaul71, #upperstaff-userlist-user-alphapaul71, #marketplace-userlist-user-alphapaul71, #monotype-userlist-user-alphapaul71, #videogames-userlist-user-alphapaul71, #sports-userlist-user-alphapaul71, #francais-userlist-user-alphapaul71, #casino-userlist-user-alphapaul71, #help-userlist-user-alphapaul71, #thehappyplace-userlist-user-alphapaul71, #socialmedia-userlist-user-alphapaul71, #pokeindia-userlist-user-alphapaul71, #scartysrealm-userlist-user-alphapaul71{
+background: url("http://media.pldh.net/pokecons_action/484.gif") no-repeat right
+}
+#lobby-userlist-user-ransei, #staff-userlist-user-ransei, #tournaments-userlist-user-ransei, #battlelords-userlist-user-ransei, #pokefc-userlist-user-ransei, #shadowbanroom-userlist-user-ransei, #upperstaff-userlist-user-ransei, #marketplace-userlist-user-ransei, #monotype-userlist-user-ransei, #videogames-userlist-user-ransei, #sports-userlist-user-ransei, #francais-userlist-user-ransei, #casino-userlist-user-ransei, #help-userlist-user-ransei, #thehappyplace-userlist-user-ransei, #socialmedia-userlist-user-ransei, #pokeindia-userlist-user-ransei, #scartysrealm-userlist-user-ransei{
+background: url("http://media.pldh.net/pokecons_action/493.gif") no-repeat right
+}
+/* ICONS END */
+/* ICONS START */
+#lobby-userlist-user-aeroliverpool, #staff-userlist-user-aeroliverpool, #tournaments-userlist-user-aeroliverpool, #battlelords-userlist-user-aeroliverpool, #pokefc-userlist-user-aeroliverpool, #shadowbanroom-userlist-user-aeroliverpool, #upperstaff-userlist-user-aeroliverpool, #marketplace-userlist-user-aeroliverpool, #monotype-userlist-user-aeroliverpool, #videogames-userlist-user-aeroliverpool, #sports-userlist-user-aeroliverpool, #francais-userlist-user-aeroliverpool, #casino-userlist-user-aeroliverpool, #help-userlist-user-aeroliverpool, #thehappyplace-userlist-user-aeroliverpool, #socialmedia-userlist-user-aeroliverpool, #pokeindia-userlist-user-aeroliverpool, #scartysrealm-userlist-user-aeroliverpool, #paul71stestroom-userlist-user-aeroliverpool, #theflashleague-userlist-user-aeroliverpool{
+background: url("http://pldh.net/media/pokexycons/384-mega.png") no-repeat right
+}
+#lobby-userlist-user-classyz, #staff-userlist-user-classyz, #tournaments-userlist-user-classyz, #battlelords-userlist-user-classyz, #pokefc-userlist-user-classyz, #shadowbanroom-userlist-user-classyz, #upperstaff-userlist-user-classyz, #marketplace-userlist-user-classyz, #monotype-userlist-user-classyz, #videogames-userlist-user-classyz, #sports-userlist-user-classyz, #francais-userlist-user-classyz, #casino-userlist-user-classyz, #help-userlist-user-classyz, #thehappyplace-userlist-user-classyz, #socialmedia-userlist-user-classyz, #pokeindia-userlist-user-classyz, #scartysrealm-userlist-user-classyz, #paul71stestroom-userlist-user-classyz, #theflashleague-userlist-user-classyz{
+background: url("http://pldh.net/media/pokecons_action/212.gif") no-repeat right
+}
+#lobby-userlist-user-alphapaul71, #staff-userlist-user-alphapaul71, #tournaments-userlist-user-alphapaul71, #battlelords-userlist-user-alphapaul71, #pokefc-userlist-user-alphapaul71, #shadowbanroom-userlist-user-alphapaul71, #upperstaff-userlist-user-alphapaul71, #marketplace-userlist-user-alphapaul71, #monotype-userlist-user-alphapaul71, #videogames-userlist-user-alphapaul71, #sports-userlist-user-alphapaul71, #francais-userlist-user-alphapaul71, #casino-userlist-user-alphapaul71, #help-userlist-user-alphapaul71, #thehappyplace-userlist-user-alphapaul71, #socialmedia-userlist-user-alphapaul71, #pokeindia-userlist-user-alphapaul71, #scartysrealm-userlist-user-alphapaul71, #paul71stestroom-userlist-user-alphapaul71, #theflashleague-userlist-user-alphapaul71{
+background: url("http://media.pldh.net/pokecons_action/484.gif") no-repeat right
+}
+#lobby-userlist-user-ransei, #staff-userlist-user-ransei, #tournaments-userlist-user-ransei, #battlelords-userlist-user-ransei, #pokefc-userlist-user-ransei, #shadowbanroom-userlist-user-ransei, #upperstaff-userlist-user-ransei, #marketplace-userlist-user-ransei, #monotype-userlist-user-ransei, #videogames-userlist-user-ransei, #sports-userlist-user-ransei, #francais-userlist-user-ransei, #casino-userlist-user-ransei, #help-userlist-user-ransei, #thehappyplace-userlist-user-ransei, #socialmedia-userlist-user-ransei, #pokeindia-userlist-user-ransei, #scartysrealm-userlist-user-ransei, #paul71stestroom-userlist-user-ransei, #theflashleague-userlist-user-ransei{
+background: url("http://media.pldh.net/pokecons_action/493.gif") no-repeat right
+}
+#lobby-userlist-user-paul71, #staff-userlist-user-paul71, #tournaments-userlist-user-paul71, #battlelords-userlist-user-paul71, #pokefc-userlist-user-paul71, #shadowbanroom-userlist-user-paul71, #upperstaff-userlist-user-paul71, #marketplace-userlist-user-paul71, #monotype-userlist-user-paul71, #videogames-userlist-user-paul71, #sports-userlist-user-paul71, #francais-userlist-user-paul71, #casino-userlist-user-paul71, #help-userlist-user-paul71, #thehappyplace-userlist-user-paul71, #socialmedia-userlist-user-paul71, #pokeindia-userlist-user-paul71, #scartysrealm-userlist-user-paul71, #paul71stestroom-userlist-user-paul71, #theflashleague-userlist-user-paul71{
+background: url("http://media.pldh.net/pokecons_action/484.gif") no-repeat right
+}
+/* ICONS END */
+/* COLORS START */
+#lobby-userlist-user-paul71 strong em, #lobby-userlist-user-paul71 strong, #lobby-userlist-user-paul71 span, #staff-userlist-user-paul71 strong em, #staff-userlist-user-paul71 strong, #staff-userlist-user-paul71 span, #tournaments-userlist-user-paul71 strong em, #tournaments-userlist-user-paul71 strong, #tournaments-userlist-user-paul71 span, #battlelords-userlist-user-paul71 strong em, #battlelords-userlist-user-paul71 strong, #battlelords-userlist-user-paul71 span, #pokefc-userlist-user-paul71 strong em, #pokefc-userlist-user-paul71 strong, #pokefc-userlist-user-paul71 span, #shadowbanroom-userlist-user-paul71 strong em, #shadowbanroom-userlist-user-paul71 strong, #shadowbanroom-userlist-user-paul71 span, #upperstaff-userlist-user-paul71 strong em, #upperstaff-userlist-user-paul71 strong, #upperstaff-userlist-user-paul71 span, #marketplace-userlist-user-paul71 strong em, #marketplace-userlist-user-paul71 strong, #marketplace-userlist-user-paul71 span, #monotype-userlist-user-paul71 strong em, #monotype-userlist-user-paul71 strong, #monotype-userlist-user-paul71 span, #videogames-userlist-user-paul71 strong em, #videogames-userlist-user-paul71 strong, #videogames-userlist-user-paul71 span, #sports-userlist-user-paul71 strong em, #sports-userlist-user-paul71 strong, #sports-userlist-user-paul71 span, #francais-userlist-user-paul71 strong em, #francais-userlist-user-paul71 strong, #francais-userlist-user-paul71 span, #casino-userlist-user-paul71 strong em, #casino-userlist-user-paul71 strong, #casino-userlist-user-paul71 span, #help-userlist-user-paul71 strong em, #help-userlist-user-paul71 strong, #help-userlist-user-paul71 span, #thehappyplace-userlist-user-paul71 strong em, #thehappyplace-userlist-user-paul71 strong, #thehappyplace-userlist-user-paul71 span, #socialmedia-userlist-user-paul71 strong em, #socialmedia-userlist-user-paul71 strong, #socialmedia-userlist-user-paul71 span, #pokeindia-userlist-user-paul71 strong em, #pokeindia-userlist-user-paul71 strong, #pokeindia-userlist-user-paul71 span, #scartysrealm-userlist-user-paul71 strong em, #scartysrealm-userlist-user-paul71 strong, #scartysrealm-userlist-user-paul71 span, #paul71stestroom-userlist-user-paul71 strong em, #paul71stestroom-userlist-user-paul71 strong, #paul71stestroom-userlist-user-paul71 span, #theflashleague-userlist-user-paul71 strong em, #theflashleague-userlist-user-paul71 strong, #theflashleague-userlist-user-paul71 span{
+color: orange !important;
+}
+.chat.chatmessage-paul71 strong {
+color: orange !important;
+}
+#lobby-userlist-user-battleguard strong em, #lobby-userlist-user-battleguard strong, #lobby-userlist-user-battleguard span, #staff-userlist-user-battleguard strong em, #staff-userlist-user-battleguard strong, #staff-userlist-user-battleguard span, #tournaments-userlist-user-battleguard strong em, #tournaments-userlist-user-battleguard strong, #tournaments-userlist-user-battleguard span, #battlelords-userlist-user-battleguard strong em, #battlelords-userlist-user-battleguard strong, #battlelords-userlist-user-battleguard span, #pokefc-userlist-user-battleguard strong em, #pokefc-userlist-user-battleguard strong, #pokefc-userlist-user-battleguard span, #shadowbanroom-userlist-user-battleguard strong em, #shadowbanroom-userlist-user-battleguard strong, #shadowbanroom-userlist-user-battleguard span, #upperstaff-userlist-user-battleguard strong em, #upperstaff-userlist-user-battleguard strong, #upperstaff-userlist-user-battleguard span, #marketplace-userlist-user-battleguard strong em, #marketplace-userlist-user-battleguard strong, #marketplace-userlist-user-battleguard span, #monotype-userlist-user-battleguard strong em, #monotype-userlist-user-battleguard strong, #monotype-userlist-user-battleguard span, #videogames-userlist-user-battleguard strong em, #videogames-userlist-user-battleguard strong, #videogames-userlist-user-battleguard span, #sports-userlist-user-battleguard strong em, #sports-userlist-user-battleguard strong, #sports-userlist-user-battleguard span, #francais-userlist-user-battleguard strong em, #francais-userlist-user-battleguard strong, #francais-userlist-user-battleguard span, #casino-userlist-user-battleguard strong em, #casino-userlist-user-battleguard strong, #casino-userlist-user-battleguard span, #help-userlist-user-battleguard strong em, #help-userlist-user-battleguard strong, #help-userlist-user-battleguard span, #thehappyplace-userlist-user-battleguard strong em, #thehappyplace-userlist-user-battleguard strong, #thehappyplace-userlist-user-battleguard span, #socialmedia-userlist-user-battleguard strong em, #socialmedia-userlist-user-battleguard strong, #socialmedia-userlist-user-battleguard span, #pokeindia-userlist-user-battleguard strong em, #pokeindia-userlist-user-battleguard strong, #pokeindia-userlist-user-battleguard span, #scartysrealm-userlist-user-battleguard strong em, #scartysrealm-userlist-user-battleguard strong, #scartysrealm-userlist-user-battleguard span, #paul71stestroom-userlist-user-battleguard strong em, #paul71stestroom-userlist-user-battleguard strong, #paul71stestroom-userlist-user-battleguard span, #theflashleague-userlist-user-battleguard strong em, #theflashleague-userlist-user-battleguard strong, #theflashleague-userlist-user-battleguard span{
+color: Yellow !important;
+}
+.chat.chatmessage-battleguard strong {
+color: Yellow !important;
+}
+#lobby-userlist-user-hurting strong em, #lobby-userlist-user-hurting strong, #lobby-userlist-user-hurting span, #staff-userlist-user-hurting strong em, #staff-userlist-user-hurting strong, #staff-userlist-user-hurting span, #tournaments-userlist-user-hurting strong em, #tournaments-userlist-user-hurting strong, #tournaments-userlist-user-hurting span, #battlelords-userlist-user-hurting strong em, #battlelords-userlist-user-hurting strong, #battlelords-userlist-user-hurting span, #pokefc-userlist-user-hurting strong em, #pokefc-userlist-user-hurting strong, #pokefc-userlist-user-hurting span, #shadowbanroom-userlist-user-hurting strong em, #shadowbanroom-userlist-user-hurting strong, #shadowbanroom-userlist-user-hurting span, #upperstaff-userlist-user-hurting strong em, #upperstaff-userlist-user-hurting strong, #upperstaff-userlist-user-hurting span, #marketplace-userlist-user-hurting strong em, #marketplace-userlist-user-hurting strong, #marketplace-userlist-user-hurting span, #monotype-userlist-user-hurting strong em, #monotype-userlist-user-hurting strong, #monotype-userlist-user-hurting span, #videogames-userlist-user-hurting strong em, #videogames-userlist-user-hurting strong, #videogames-userlist-user-hurting span, #sports-userlist-user-hurting strong em, #sports-userlist-user-hurting strong, #sports-userlist-user-hurting span, #francais-userlist-user-hurting strong em, #francais-userlist-user-hurting strong, #francais-userlist-user-hurting span, #casino-userlist-user-hurting strong em, #casino-userlist-user-hurting strong, #casino-userlist-user-hurting span, #help-userlist-user-hurting strong em, #help-userlist-user-hurting strong, #help-userlist-user-hurting span, #thehappyplace-userlist-user-hurting strong em, #thehappyplace-userlist-user-hurting strong, #thehappyplace-userlist-user-hurting span, #socialmedia-userlist-user-hurting strong em, #socialmedia-userlist-user-hurting strong, #socialmedia-userlist-user-hurting span, #pokeindia-userlist-user-hurting strong em, #pokeindia-userlist-user-hurting strong, #pokeindia-userlist-user-hurting span, #scartysrealm-userlist-user-hurting strong em, #scartysrealm-userlist-user-hurting strong, #scartysrealm-userlist-user-hurting span, #paul71stestroom-userlist-user-hurting strong em, #paul71stestroom-userlist-user-hurting strong, #paul71stestroom-userlist-user-hurting span, #theflashleague-userlist-user-hurting strong em, #theflashleague-userlist-user-hurting strong, #theflashleague-userlist-user-hurting span{
+color: #fc0 !important;
+}
+.chat.chatmessage-hurting strong {
+color: #fc0 !important;
+}
+#lobby-userlist-user-tejas10 strong em, #lobby-userlist-user-tejas10 strong, #lobby-userlist-user-tejas10 span, #staff-userlist-user-tejas10 strong em, #staff-userlist-user-tejas10 strong, #staff-userlist-user-tejas10 span, #tournaments-userlist-user-tejas10 strong em, #tournaments-userlist-user-tejas10 strong, #tournaments-userlist-user-tejas10 span, #battlelords-userlist-user-tejas10 strong em, #battlelords-userlist-user-tejas10 strong, #battlelords-userlist-user-tejas10 span, #pokefc-userlist-user-tejas10 strong em, #pokefc-userlist-user-tejas10 strong, #pokefc-userlist-user-tejas10 span, #shadowbanroom-userlist-user-tejas10 strong em, #shadowbanroom-userlist-user-tejas10 strong, #shadowbanroom-userlist-user-tejas10 span, #upperstaff-userlist-user-tejas10 strong em, #upperstaff-userlist-user-tejas10 strong, #upperstaff-userlist-user-tejas10 span, #marketplace-userlist-user-tejas10 strong em, #marketplace-userlist-user-tejas10 strong, #marketplace-userlist-user-tejas10 span, #monotype-userlist-user-tejas10 strong em, #monotype-userlist-user-tejas10 strong, #monotype-userlist-user-tejas10 span, #videogames-userlist-user-tejas10 strong em, #videogames-userlist-user-tejas10 strong, #videogames-userlist-user-tejas10 span, #sports-userlist-user-tejas10 strong em, #sports-userlist-user-tejas10 strong, #sports-userlist-user-tejas10 span, #francais-userlist-user-tejas10 strong em, #francais-userlist-user-tejas10 strong, #francais-userlist-user-tejas10 span, #casino-userlist-user-tejas10 strong em, #casino-userlist-user-tejas10 strong, #casino-userlist-user-tejas10 span, #help-userlist-user-tejas10 strong em, #help-userlist-user-tejas10 strong, #help-userlist-user-tejas10 span, #thehappyplace-userlist-user-tejas10 strong em, #thehappyplace-userlist-user-tejas10 strong, #thehappyplace-userlist-user-tejas10 span, #socialmedia-userlist-user-tejas10 strong em, #socialmedia-userlist-user-tejas10 strong, #socialmedia-userlist-user-tejas10 span, #pokeindia-userlist-user-tejas10 strong em, #pokeindia-userlist-user-tejas10 strong, #pokeindia-userlist-user-tejas10 span, #scartysrealm-userlist-user-tejas10 strong em, #scartysrealm-userlist-user-tejas10 strong, #scartysrealm-userlist-user-tejas10 span, #paul71stestroom-userlist-user-tejas10 strong em, #paul71stestroom-userlist-user-tejas10 strong, #paul71stestroom-userlist-user-tejas10 span, #theflashleague-userlist-user-tejas10 strong em, #theflashleague-userlist-user-tejas10 strong, #theflashleague-userlist-user-tejas10 span{
+color: #00e5ee !important;
+}
+.chat.chatmessage-tejas10 strong {
+color: #00e5ee !important;
+}
+#lobby-userlist-user-ransei strong em, #lobby-userlist-user-ransei strong, #lobby-userlist-user-ransei span, #staff-userlist-user-ransei strong em, #staff-userlist-user-ransei strong, #staff-userlist-user-ransei span, #tournaments-userlist-user-ransei strong em, #tournaments-userlist-user-ransei strong, #tournaments-userlist-user-ransei span, #battlelords-userlist-user-ransei strong em, #battlelords-userlist-user-ransei strong, #battlelords-userlist-user-ransei span, #pokefc-userlist-user-ransei strong em, #pokefc-userlist-user-ransei strong, #pokefc-userlist-user-ransei span, #shadowbanroom-userlist-user-ransei strong em, #shadowbanroom-userlist-user-ransei strong, #shadowbanroom-userlist-user-ransei span, #upperstaff-userlist-user-ransei strong em, #upperstaff-userlist-user-ransei strong, #upperstaff-userlist-user-ransei span, #marketplace-userlist-user-ransei strong em, #marketplace-userlist-user-ransei strong, #marketplace-userlist-user-ransei span, #monotype-userlist-user-ransei strong em, #monotype-userlist-user-ransei strong, #monotype-userlist-user-ransei span, #videogames-userlist-user-ransei strong em, #videogames-userlist-user-ransei strong, #videogames-userlist-user-ransei span, #sports-userlist-user-ransei strong em, #sports-userlist-user-ransei strong, #sports-userlist-user-ransei span, #francais-userlist-user-ransei strong em, #francais-userlist-user-ransei strong, #francais-userlist-user-ransei span, #casino-userlist-user-ransei strong em, #casino-userlist-user-ransei strong, #casino-userlist-user-ransei span, #help-userlist-user-ransei strong em, #help-userlist-user-ransei strong, #help-userlist-user-ransei span, #thehappyplace-userlist-user-ransei strong em, #thehappyplace-userlist-user-ransei strong, #thehappyplace-userlist-user-ransei span, #socialmedia-userlist-user-ransei strong em, #socialmedia-userlist-user-ransei strong, #socialmedia-userlist-user-ransei span, #pokeindia-userlist-user-ransei strong em, #pokeindia-userlist-user-ransei strong, #pokeindia-userlist-user-ransei span, #scartysrealm-userlist-user-ransei strong em, #scartysrealm-userlist-user-ransei strong, #scartysrealm-userlist-user-ransei span, #paul71stestroom-userlist-user-ransei strong em, #paul71stestroom-userlist-user-ransei strong, #paul71stestroom-userlist-user-ransei span, #theflashleague-userlist-user-ransei strong em, #theflashleague-userlist-user-ransei strong, #theflashleague-userlist-user-ransei span{
+color: #DAC007 !important;
+}
+.chat.chatmessage-ransei strong {
+color: #DAC007 !important;
+}
+#lobby-userlist-user-lilkidpancham strong em, #lobby-userlist-user-lilkidpancham strong, #lobby-userlist-user-lilkidpancham span, #staff-userlist-user-lilkidpancham strong em, #staff-userlist-user-lilkidpancham strong, #staff-userlist-user-lilkidpancham span, #tournaments-userlist-user-lilkidpancham strong em, #tournaments-userlist-user-lilkidpancham strong, #tournaments-userlist-user-lilkidpancham span, #battlelords-userlist-user-lilkidpancham strong em, #battlelords-userlist-user-lilkidpancham strong, #battlelords-userlist-user-lilkidpancham span, #pokefc-userlist-user-lilkidpancham strong em, #pokefc-userlist-user-lilkidpancham strong, #pokefc-userlist-user-lilkidpancham span, #shadowbanroom-userlist-user-lilkidpancham strong em, #shadowbanroom-userlist-user-lilkidpancham strong, #shadowbanroom-userlist-user-lilkidpancham span, #upperstaff-userlist-user-lilkidpancham strong em, #upperstaff-userlist-user-lilkidpancham strong, #upperstaff-userlist-user-lilkidpancham span, #marketplace-userlist-user-lilkidpancham strong em, #marketplace-userlist-user-lilkidpancham strong, #marketplace-userlist-user-lilkidpancham span, #monotype-userlist-user-lilkidpancham strong em, #monotype-userlist-user-lilkidpancham strong, #monotype-userlist-user-lilkidpancham span, #videogames-userlist-user-lilkidpancham strong em, #videogames-userlist-user-lilkidpancham strong, #videogames-userlist-user-lilkidpancham span, #sports-userlist-user-lilkidpancham strong em, #sports-userlist-user-lilkidpancham strong, #sports-userlist-user-lilkidpancham span, #francais-userlist-user-lilkidpancham strong em, #francais-userlist-user-lilkidpancham strong, #francais-userlist-user-lilkidpancham span, #casino-userlist-user-lilkidpancham strong em, #casino-userlist-user-lilkidpancham strong, #casino-userlist-user-lilkidpancham span, #help-userlist-user-lilkidpancham strong em, #help-userlist-user-lilkidpancham strong, #help-userlist-user-lilkidpancham span, #thehappyplace-userlist-user-lilkidpancham strong em, #thehappyplace-userlist-user-lilkidpancham strong, #thehappyplace-userlist-user-lilkidpancham span, #socialmedia-userlist-user-lilkidpancham strong em, #socialmedia-userlist-user-lilkidpancham strong, #socialmedia-userlist-user-lilkidpancham span, #pokeindia-userlist-user-lilkidpancham strong em, #pokeindia-userlist-user-lilkidpancham strong, #pokeindia-userlist-user-lilkidpancham span, #scartysrealm-userlist-user-lilkidpancham strong em, #scartysrealm-userlist-user-lilkidpancham strong, #scartysrealm-userlist-user-lilkidpancham span, #paul71stestroom-userlist-user-lilkidpancham strong em, #paul71stestroom-userlist-user-lilkidpancham strong, #paul71stestroom-userlist-user-lilkidpancham span, #theflashleague-userlist-user-lilkidpancham strong em, #theflashleague-userlist-user-lilkidpancham strong, #theflashleague-userlist-user-lilkidpancham span{
+color: white !important;
+}
+.chat.chatmessage-lilkidpancham strong {
+color: white !important;
+}
+#lobby-userlist-user-aeroliverpool strong em, #lobby-userlist-user-aeroliverpool strong, #lobby-userlist-user-aeroliverpool span, #staff-userlist-user-aeroliverpool strong em, #staff-userlist-user-aeroliverpool strong, #staff-userlist-user-aeroliverpool span, #tournaments-userlist-user-aeroliverpool strong em, #tournaments-userlist-user-aeroliverpool strong, #tournaments-userlist-user-aeroliverpool span, #battlelords-userlist-user-aeroliverpool strong em, #battlelords-userlist-user-aeroliverpool strong, #battlelords-userlist-user-aeroliverpool span, #pokefc-userlist-user-aeroliverpool strong em, #pokefc-userlist-user-aeroliverpool strong, #pokefc-userlist-user-aeroliverpool span, #shadowbanroom-userlist-user-aeroliverpool strong em, #shadowbanroom-userlist-user-aeroliverpool strong, #shadowbanroom-userlist-user-aeroliverpool span, #upperstaff-userlist-user-aeroliverpool strong em, #upperstaff-userlist-user-aeroliverpool strong, #upperstaff-userlist-user-aeroliverpool span, #marketplace-userlist-user-aeroliverpool strong em, #marketplace-userlist-user-aeroliverpool strong, #marketplace-userlist-user-aeroliverpool span, #monotype-userlist-user-aeroliverpool strong em, #monotype-userlist-user-aeroliverpool strong, #monotype-userlist-user-aeroliverpool span, #videogames-userlist-user-aeroliverpool strong em, #videogames-userlist-user-aeroliverpool strong, #videogames-userlist-user-aeroliverpool span, #sports-userlist-user-aeroliverpool strong em, #sports-userlist-user-aeroliverpool strong, #sports-userlist-user-aeroliverpool span, #francais-userlist-user-aeroliverpool strong em, #francais-userlist-user-aeroliverpool strong, #francais-userlist-user-aeroliverpool span, #casino-userlist-user-aeroliverpool strong em, #casino-userlist-user-aeroliverpool strong, #casino-userlist-user-aeroliverpool span, #help-userlist-user-aeroliverpool strong em, #help-userlist-user-aeroliverpool strong, #help-userlist-user-aeroliverpool span, #thehappyplace-userlist-user-aeroliverpool strong em, #thehappyplace-userlist-user-aeroliverpool strong, #thehappyplace-userlist-user-aeroliverpool span, #socialmedia-userlist-user-aeroliverpool strong em, #socialmedia-userlist-user-aeroliverpool strong, #socialmedia-userlist-user-aeroliverpool span, #pokeindia-userlist-user-aeroliverpool strong em, #pokeindia-userlist-user-aeroliverpool strong, #pokeindia-userlist-user-aeroliverpool span, #scartysrealm-userlist-user-aeroliverpool strong em, #scartysrealm-userlist-user-aeroliverpool strong, #scartysrealm-userlist-user-aeroliverpool span, #paul71stestroom-userlist-user-aeroliverpool strong em, #paul71stestroom-userlist-user-aeroliverpool strong, #paul71stestroom-userlist-user-aeroliverpool span, #theflashleague-userlist-user-aeroliverpool strong em, #theflashleague-userlist-user-aeroliverpool strong, #theflashleague-userlist-user-aeroliverpool span{
+color: cyan !important;
+}
+.chat.chatmessage-aeroliverpool strong {
+color: cyan !important;
+}
+#lobby-userlist-user-coldsteelygaze strong em, #lobby-userlist-user-coldsteelygaze strong, #lobby-userlist-user-coldsteelygaze span, #staff-userlist-user-coldsteelygaze strong em, #staff-userlist-user-coldsteelygaze strong, #staff-userlist-user-coldsteelygaze span, #tournaments-userlist-user-coldsteelygaze strong em, #tournaments-userlist-user-coldsteelygaze strong, #tournaments-userlist-user-coldsteelygaze span, #battlelords-userlist-user-coldsteelygaze strong em, #battlelords-userlist-user-coldsteelygaze strong, #battlelords-userlist-user-coldsteelygaze span, #pokefc-userlist-user-coldsteelygaze strong em, #pokefc-userlist-user-coldsteelygaze strong, #pokefc-userlist-user-coldsteelygaze span, #shadowbanroom-userlist-user-coldsteelygaze strong em, #shadowbanroom-userlist-user-coldsteelygaze strong, #shadowbanroom-userlist-user-coldsteelygaze span, #upperstaff-userlist-user-coldsteelygaze strong em, #upperstaff-userlist-user-coldsteelygaze strong, #upperstaff-userlist-user-coldsteelygaze span, #marketplace-userlist-user-coldsteelygaze strong em, #marketplace-userlist-user-coldsteelygaze strong, #marketplace-userlist-user-coldsteelygaze span, #monotype-userlist-user-coldsteelygaze strong em, #monotype-userlist-user-coldsteelygaze strong, #monotype-userlist-user-coldsteelygaze span, #videogames-userlist-user-coldsteelygaze strong em, #videogames-userlist-user-coldsteelygaze strong, #videogames-userlist-user-coldsteelygaze span, #sports-userlist-user-coldsteelygaze strong em, #sports-userlist-user-coldsteelygaze strong, #sports-userlist-user-coldsteelygaze span, #francais-userlist-user-coldsteelygaze strong em, #francais-userlist-user-coldsteelygaze strong, #francais-userlist-user-coldsteelygaze span, #casino-userlist-user-coldsteelygaze strong em, #casino-userlist-user-coldsteelygaze strong, #casino-userlist-user-coldsteelygaze span, #help-userlist-user-coldsteelygaze strong em, #help-userlist-user-coldsteelygaze strong, #help-userlist-user-coldsteelygaze span, #thehappyplace-userlist-user-coldsteelygaze strong em, #thehappyplace-userlist-user-coldsteelygaze strong, #thehappyplace-userlist-user-coldsteelygaze span, #socialmedia-userlist-user-coldsteelygaze strong em, #socialmedia-userlist-user-coldsteelygaze strong, #socialmedia-userlist-user-coldsteelygaze span, #pokeindia-userlist-user-coldsteelygaze strong em, #pokeindia-userlist-user-coldsteelygaze strong, #pokeindia-userlist-user-coldsteelygaze span, #scartysrealm-userlist-user-coldsteelygaze strong em, #scartysrealm-userlist-user-coldsteelygaze strong, #scartysrealm-userlist-user-coldsteelygaze span, #paul71stestroom-userlist-user-coldsteelygaze strong em, #paul71stestroom-userlist-user-coldsteelygaze strong, #paul71stestroom-userlist-user-coldsteelygaze span, #theflashleague-userlist-user-coldsteelygaze strong em, #theflashleague-userlist-user-coldsteelygaze strong, #theflashleague-userlist-user-coldsteelygaze span{
+color: blue !important;
+}
+.chat.chatmessage-coldsteelygaze strong {
+color: blue !important;
+}
+#lobby-userlist-user-classyz strong em, #lobby-userlist-user-classyz strong, #lobby-userlist-user-classyz span, #staff-userlist-user-classyz strong em, #staff-userlist-user-classyz strong, #staff-userlist-user-classyz span, #tournaments-userlist-user-classyz strong em, #tournaments-userlist-user-classyz strong, #tournaments-userlist-user-classyz span, #battlelords-userlist-user-classyz strong em, #battlelords-userlist-user-classyz strong, #battlelords-userlist-user-classyz span, #pokefc-userlist-user-classyz strong em, #pokefc-userlist-user-classyz strong, #pokefc-userlist-user-classyz span, #shadowbanroom-userlist-user-classyz strong em, #shadowbanroom-userlist-user-classyz strong, #shadowbanroom-userlist-user-classyz span, #upperstaff-userlist-user-classyz strong em, #upperstaff-userlist-user-classyz strong, #upperstaff-userlist-user-classyz span, #marketplace-userlist-user-classyz strong em, #marketplace-userlist-user-classyz strong, #marketplace-userlist-user-classyz span, #monotype-userlist-user-classyz strong em, #monotype-userlist-user-classyz strong, #monotype-userlist-user-classyz span, #videogames-userlist-user-classyz strong em, #videogames-userlist-user-classyz strong, #videogames-userlist-user-classyz span, #sports-userlist-user-classyz strong em, #sports-userlist-user-classyz strong, #sports-userlist-user-classyz span, #francais-userlist-user-classyz strong em, #francais-userlist-user-classyz strong, #francais-userlist-user-classyz span, #casino-userlist-user-classyz strong em, #casino-userlist-user-classyz strong, #casino-userlist-user-classyz span, #help-userlist-user-classyz strong em, #help-userlist-user-classyz strong, #help-userlist-user-classyz span, #thehappyplace-userlist-user-classyz strong em, #thehappyplace-userlist-user-classyz strong, #thehappyplace-userlist-user-classyz span, #socialmedia-userlist-user-classyz strong em, #socialmedia-userlist-user-classyz strong, #socialmedia-userlist-user-classyz span, #pokeindia-userlist-user-classyz strong em, #pokeindia-userlist-user-classyz strong, #pokeindia-userlist-user-classyz span, #scartysrealm-userlist-user-classyz strong em, #scartysrealm-userlist-user-classyz strong, #scartysrealm-userlist-user-classyz span, #paul71stestroom-userlist-user-classyz strong em, #paul71stestroom-userlist-user-classyz strong, #paul71stestroom-userlist-user-classyz span, #theflashleague-userlist-user-classyz strong em, #theflashleague-userlist-user-classyz strong, #theflashleague-userlist-user-classyz span{
+color: #00ff00 !important;
+}
+.chat.chatmessage-classyz strong {
+color: #00ff00 !important;
+}
+#lobby-userlist-user-charizard8888 strong em, #lobby-userlist-user-charizard8888 strong, #lobby-userlist-user-charizard8888 span, #staff-userlist-user-charizard8888 strong em, #staff-userlist-user-charizard8888 strong, #staff-userlist-user-charizard8888 span, #tournaments-userlist-user-charizard8888 strong em, #tournaments-userlist-user-charizard8888 strong, #tournaments-userlist-user-charizard8888 span, #battlelords-userlist-user-charizard8888 strong em, #battlelords-userlist-user-charizard8888 strong, #battlelords-userlist-user-charizard8888 span, #pokefc-userlist-user-charizard8888 strong em, #pokefc-userlist-user-charizard8888 strong, #pokefc-userlist-user-charizard8888 span, #shadowbanroom-userlist-user-charizard8888 strong em, #shadowbanroom-userlist-user-charizard8888 strong, #shadowbanroom-userlist-user-charizard8888 span, #upperstaff-userlist-user-charizard8888 strong em, #upperstaff-userlist-user-charizard8888 strong, #upperstaff-userlist-user-charizard8888 span, #marketplace-userlist-user-charizard8888 strong em, #marketplace-userlist-user-charizard8888 strong, #marketplace-userlist-user-charizard8888 span, #monotype-userlist-user-charizard8888 strong em, #monotype-userlist-user-charizard8888 strong, #monotype-userlist-user-charizard8888 span, #videogames-userlist-user-charizard8888 strong em, #videogames-userlist-user-charizard8888 strong, #videogames-userlist-user-charizard8888 span, #sports-userlist-user-charizard8888 strong em, #sports-userlist-user-charizard8888 strong, #sports-userlist-user-charizard8888 span, #francais-userlist-user-charizard8888 strong em, #francais-userlist-user-charizard8888 strong, #francais-userlist-user-charizard8888 span, #casino-userlist-user-charizard8888 strong em, #casino-userlist-user-charizard8888 strong, #casino-userlist-user-charizard8888 span, #help-userlist-user-charizard8888 strong em, #help-userlist-user-charizard8888 strong, #help-userlist-user-charizard8888 span, #thehappyplace-userlist-user-charizard8888 strong em, #thehappyplace-userlist-user-charizard8888 strong, #thehappyplace-userlist-user-charizard8888 span, #socialmedia-userlist-user-charizard8888 strong em, #socialmedia-userlist-user-charizard8888 strong, #socialmedia-userlist-user-charizard8888 span, #pokeindia-userlist-user-charizard8888 strong em, #pokeindia-userlist-user-charizard8888 strong, #pokeindia-userlist-user-charizard8888 span, #scartysrealm-userlist-user-charizard8888 strong em, #scartysrealm-userlist-user-charizard8888 strong, #scartysrealm-userlist-user-charizard8888 span, #paul71stestroom-userlist-user-charizard8888 strong em, #paul71stestroom-userlist-user-charizard8888 strong, #paul71stestroom-userlist-user-charizard8888 span, #theflashleague-userlist-user-charizard8888 strong em, #theflashleague-userlist-user-charizard8888 strong, #theflashleague-userlist-user-charizard8888 span{
+color: #66ff99 !important;
+}
+.chat.chatmessage-charizard8888 strong {
+color: #66ff99 !important;
+}
+#lobby-userlist-user-shinobibankai strong em, #lobby-userlist-user-shinobibankai strong, #lobby-userlist-user-shinobibankai span, #staff-userlist-user-shinobibankai strong em, #staff-userlist-user-shinobibankai strong, #staff-userlist-user-shinobibankai span, #tournaments-userlist-user-shinobibankai strong em, #tournaments-userlist-user-shinobibankai strong, #tournaments-userlist-user-shinobibankai span, #battlelords-userlist-user-shinobibankai strong em, #battlelords-userlist-user-shinobibankai strong, #battlelords-userlist-user-shinobibankai span, #pokefc-userlist-user-shinobibankai strong em, #pokefc-userlist-user-shinobibankai strong, #pokefc-userlist-user-shinobibankai span, #shadowbanroom-userlist-user-shinobibankai strong em, #shadowbanroom-userlist-user-shinobibankai strong, #shadowbanroom-userlist-user-shinobibankai span, #upperstaff-userlist-user-shinobibankai strong em, #upperstaff-userlist-user-shinobibankai strong, #upperstaff-userlist-user-shinobibankai span, #marketplace-userlist-user-shinobibankai strong em, #marketplace-userlist-user-shinobibankai strong, #marketplace-userlist-user-shinobibankai span, #monotype-userlist-user-shinobibankai strong em, #monotype-userlist-user-shinobibankai strong, #monotype-userlist-user-shinobibankai span, #videogames-userlist-user-shinobibankai strong em, #videogames-userlist-user-shinobibankai strong, #videogames-userlist-user-shinobibankai span, #sports-userlist-user-shinobibankai strong em, #sports-userlist-user-shinobibankai strong, #sports-userlist-user-shinobibankai span, #francais-userlist-user-shinobibankai strong em, #francais-userlist-user-shinobibankai strong, #francais-userlist-user-shinobibankai span, #casino-userlist-user-shinobibankai strong em, #casino-userlist-user-shinobibankai strong, #casino-userlist-user-shinobibankai span, #help-userlist-user-shinobibankai strong em, #help-userlist-user-shinobibankai strong, #help-userlist-user-shinobibankai span, #thehappyplace-userlist-user-shinobibankai strong em, #thehappyplace-userlist-user-shinobibankai strong, #thehappyplace-userlist-user-shinobibankai span, #socialmedia-userlist-user-shinobibankai strong em, #socialmedia-userlist-user-shinobibankai strong, #socialmedia-userlist-user-shinobibankai span, #pokeindia-userlist-user-shinobibankai strong em, #pokeindia-userlist-user-shinobibankai strong, #pokeindia-userlist-user-shinobibankai span, #scartysrealm-userlist-user-shinobibankai strong em, #scartysrealm-userlist-user-shinobibankai strong, #scartysrealm-userlist-user-shinobibankai span, #paul71stestroom-userlist-user-shinobibankai strong em, #paul71stestroom-userlist-user-shinobibankai strong, #paul71stestroom-userlist-user-shinobibankai span, #theflashleague-userlist-user-shinobibankai strong em, #theflashleague-userlist-user-shinobibankai strong, #theflashleague-userlist-user-shinobibankai span{
+color: cyan !important;
+}
+.chat.chatmessage-shinobibankai strong {
+color: cyan !important;
+}
+/* COLORS END */
