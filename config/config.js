@@ -11,7 +11,7 @@ exports.servertoken = 'p38fLEjN3BTq';
 //   of strings. Each string should be either an IP address or a subnet given
 //   in CIDR notation. You should usually leave this as `false` unless you
 //   know what you are doing.
-exports.proxyip = '10.69.187.220/8';
+exports.proxyip = false;
 // Pokemon of the Day - put a pokemon's name here to make it Pokemon of the Day
 //   The PotD will always be in the #2 slot (not #1 so it won't be a lead)
 //   in every Random Battle team.
