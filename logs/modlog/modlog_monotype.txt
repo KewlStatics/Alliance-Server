@@ -1,0 +1,15 @@
+[2016-07-07T05:22:48.791Z] (monotype) (Aero Liverpool! changed the roomintro.)
+[2016-07-07T05:25:21.926Z] (monotype) (Aero Liverpool! changed the roomintro.)
+[2016-07-07T05:25:39.345Z] (monotype) (Aero Liverpool! changed the roomintro.)
+[2016-07-07T05:27:20.402Z] (monotype) (Aero Liverpool! changed the roomintro.)
+[2016-07-07T05:28:37.824Z] (monotype) Aero Liverpool! was appointed to Room Founder by Aero Liverpool!.
+[2016-07-07T05:28:43.706Z] (monotype) ClassyZ ツ was promoted to Room Voice by Aero Liverpool!.
+[2016-07-07T06:03:33.824Z] (monotype) ClassyZ ツ was promoted to Room Driver by Aero Liverpool!.
+[2016-07-07T06:04:51.395Z] (monotype) Battle Guard was promoted to Room Moderator by Aero Liverpool!.
+[2016-07-07T06:39:56.956Z] (monotype) (Aero Liverpool has recieved custom color: '56600FF' from Ransei.)
+[2016-07-07T06:40:41.665Z] (monotype) (Aero Liverpool has recieved icon: 'http://pldh.net/media/pokexycons/384-mega.png' from Ransei.)
+[2016-07-07T08:25:21.199Z] (monotype) (Aero Liverpool! changed the roomintro.)
+[2016-07-07T08:30:59.468Z] (monotype) (Ransei set modchat to +)
+[2016-07-08T11:45:32.562Z] (monotype) (Aero Liverpool! changed the roomintro.)
+[2016-07-08T11:46:11.493Z] (monotype) (Aero Liverpool! changed the roomintro.)
+[2016-07-08T11:46:27.866Z] (monotype) (Aero Liverpool! was demoted to Room Moderator by Aero Liverpool!.)

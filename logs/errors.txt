@@ -1,0 +1,594 @@
+
+TypeError: Cannot read property 'add' of undefined
+    at CommandContext.exports.commands.customcolor (/home/ubuntu/workspace/chat-plugins/customcolors.js:72:22)
+    at CommandContext.run (/home/ubuntu/workspace/command-parser.js:278:28)
+    at Object.exports.multiLinePattern.exports.parse (/home/ubuntu/workspace/command-parser.js:623:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:104:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1440:9)
+    at Function.fs.readFile.groupData.rename.connection.getAlts.forPunishment.getAltUsers.forPunishment.leaveRoom.force.prepBattle.connection.static.pruneInactive.Users.socketConnect.Users.socketReceive.message [as socketReceive] (/home/ubuntu/workspace/users.js:1611:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:52:11)
+    at emitTwo (events.js:92:20)
+    at Worker.emit (events.js:172:7)
+    at ChildProcess.<anonymous> (cluster.js:40:12)
+
+Additional information:
+  user = Paul☯71◕‿◕
+  room = lobby
+  message = /customcolor set Paul71, Orange
+
+
+TypeError: Cannot read property 'add' of undefined
+    at CommandContext.exports.commands.icon (/home/ubuntu/workspace/chat-plugins/icons.js:66:22)
+    at CommandContext.run (/home/ubuntu/workspace/command-parser.js:278:28)
+    at Object.exports.multiLinePattern.exports.parse (/home/ubuntu/workspace/command-parser.js:623:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:104:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1440:9)
+    at Function.fs.readFile.groupData.rename.connection.getAlts.forPunishment.getAltUsers.forPunishment.leaveRoom.force.prepBattle.connection.static.pruneInactive.Users.socketConnect.Users.socketReceive.message [as socketReceive] (/home/ubuntu/workspace/users.js:1611:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:52:11)
+    at emitTwo (events.js:92:20)
+    at Worker.emit (events.js:172:7)
+    at ChildProcess.<anonymous> (cluster.js:40:12)
+
+Additional information:
+  user = Paul☯71◕‿◕
+  room = lobby
+  message = /icon Paul71,Delete
+
+
+TypeError: Cannot read property 'add' of undefined
+    at CommandContext.exports.commands.seen.user.regdate.define.user.urbandefine.user.anime.nani.get.then.manga.nani.get.then.title.Wisp.getTitle (/home/ubuntu/workspace/chat-plugins/wisp.js:770:23)
+    at CommandContext.run (/home/ubuntu/workspace/command-parser.js:278:28)
+    at Object.exports.multiLinePattern.exports.parse (/home/ubuntu/workspace/command-parser.js:623:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:104:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1440:9)
+    at Function.fs.readFile.groupData.rename.connection.getAlts.forPunishment.getAltUsers.forPunishment.leaveRoom.force.prepBattle.connection.static.pruneInactive.Users.socketConnect.Users.socketReceive.message [as socketReceive] (/home/ubuntu/workspace/users.js:1611:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:52:11)
+    at emitTwo (events.js:92:20)
+    at Worker.emit (events.js:172:7)
+    at ChildProcess.<anonymous> (cluster.js:40:12)
+
+Additional information:
+  user = Paul☯71◕‿◕
+  room = lobby
+  message = /title set,Paul71,BOSS
+
+
+TypeError: Cannot read property 'add' of undefined
+    at CommandContext.exports.commands.seen.user.regdate.define.user.urbandefine.user.anime.nani.get.then.manga.nani.get.then.title.Wisp.getTitle (/home/ubuntu/workspace/chat-plugins/wisp.js:770:23)
+    at CommandContext.run (/home/ubuntu/workspace/command-parser.js:278:28)
+    at Object.exports.multiLinePattern.exports.parse (/home/ubuntu/workspace/command-parser.js:623:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:104:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1441:9)
+    at Function.fs.readFile.groupData.rename.connection.getAlts.forPunishment.getAltUsers.forPunishment.leaveRoom.force.prepBattle.connection.static.pruneInactive.Users.socketConnect.Users.socketReceive.message [as socketReceive] (/home/ubuntu/workspace/users.js:1612:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:52:11)
+    at emitTwo (events.js:92:20)
+    at Worker.emit (events.js:172:7)
+    at ChildProcess.<anonymous> (cluster.js:40:12)
+
+Additional information:
+  user = Paul☯71◕‿◕
+  room = lobby
+  message = /title set,Paul71,boss
+
+
+TypeError: Cannot read property 'add' of undefined
+    at CommandContext.exports.commands.customcolor (/home/ubuntu/workspace/chat-plugins/customcolors.js:72:22)
+    at CommandContext.run (/home/ubuntu/workspace/command-parser.js:278:28)
+    at Object.exports.multiLinePattern.exports.parse (/home/ubuntu/workspace/command-parser.js:623:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:104:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1441:9)
+    at Function.fs.readFile.groupData.rename.connection.getAlts.forPunishment.getAltUsers.forPunishment.leaveRoom.force.prepBattle.connection.static.pruneInactive.Users.socketConnect.Users.socketReceive.message [as socketReceive] (/home/ubuntu/workspace/users.js:1612:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:52:11)
+    at emitTwo (events.js:92:20)
+    at Worker.emit (events.js:172:7)
+    at ChildProcess.<anonymous> (cluster.js:40:12)
+
+Additional information:
+  user = Paul☯71◕‿◕
+  room = lobby
+  message = /customcolor Paul71, Orange
+
+
+TypeError: Cannot read property 'add' of undefined
+    at CommandContext.exports.commands.customcolor (/home/ubuntu/workspace/chat-plugins/customcolors.js:72:22)
+    at CommandContext.run (/home/ubuntu/workspace/command-parser.js:278:28)
+    at Object.exports.multiLinePattern.exports.parse (/home/ubuntu/workspace/command-parser.js:623:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:104:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1441:9)
+    at Function.fs.readFile.groupData.rename.connection.getAlts.forPunishment.getAltUsers.forPunishment.leaveRoom.force.prepBattle.connection.static.pruneInactive.Users.socketConnect.Users.socketReceive.message [as socketReceive] (/home/ubuntu/workspace/users.js:1612:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:52:11)
+    at emitTwo (events.js:92:20)
+    at Worker.emit (events.js:172:7)
+    at ChildProcess.<anonymous> (cluster.js:40:12)
+
+Additional information:
+  user = Paul☯71◕‿◕
+  room = lobby
+  message = /customcolor Paul71, Orange
+
+
+Error: bind EADDRINUSE 0.0.0.0:8080
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at cb (net.js:1299:16)
+    at rr (cluster.js:607:14)
+    at Worker.<anonymous> (cluster.js:577:9)
+    at process.<anonymous> (cluster.js:736:8)
+    at emitTwo (events.js:92:20)
+    at process.emit (events.js:172:7)
+    at handleMessage (internal/child_process.js:695:10)
+    at Pipe.channel.onread (internal/child_process.js:440:11)
+
+Additional information:
+
+
+Error: ENOENT: no such file or directory, open 'config/psgo/card-managers.csv'
+    at Error (native)
+    at Object.fs.openSync (fs.js:549:18)
+    at Object.fs.writeFileSync (fs.js:1156:15)
+    at CommandContext.exports.commands.psgo.manager.add (/home/ubuntu/workspace/chat-plugins/psgo.js:342:8)
+    at CommandContext.run (/home/ubuntu/workspace/command-parser.js:278:28)
+    at Object.exports.multiLinePattern.exports.parse (/home/ubuntu/workspace/command-parser.js:623:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:104:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1441:9)
+    at Function.fs.readFile.groupData.rename.connection.getAlts.forPunishment.getAltUsers.forPunishment.leaveRoom.force.prepBattle.connection.static.pruneInactive.Users.socketConnect.Users.socketReceive.message [as socketReceive] (/home/ubuntu/workspace/users.js:1612:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:52:11)
+
+Additional information:
+  user = Paul☯71◕‿◕
+  room = lobby
+  message = /psgo manager add Battle Guard
+
+
+Error: bind EADDRINUSE 0.0.0.0:8080
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at cb (net.js:1299:16)
+    at rr (cluster.js:607:14)
+    at Worker.<anonymous> (cluster.js:577:9)
+    at process.<anonymous> (cluster.js:736:8)
+    at emitTwo (events.js:92:20)
+    at process.emit (events.js:172:7)
+    at handleMessage (internal/child_process.js:695:10)
+    at Pipe.channel.onread (internal/child_process.js:440:11)
+
+Additional information:
+
+
+Error: CRASH LOADING GEN1 DATA in ./mods/gen1/formats-data.js:
+Error: ENOMEM: not enough memory, read
+    at Error (native)
+    at Object.fs.readSync (fs.js:603:19)
+    at Object.fs.readFileSync (fs.js:433:24)
+    at Object.Module._extensions..js (module.js:415:20)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1069:20)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1071:54)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeMods (/home/ubuntu/workspace/tools.js:1040:20)
+    at Object.<anonymous> (/home/ubuntu/workspace/battle-engine.js:24:38)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+
+Error: CRASH LOADING BASE DATA in ./data/learnsets.js:
+Error: EFAULT: bad address in system call argument, read
+    at Error (native)
+    at Object.fs.readSync (fs.js:603:19)
+    at Object.fs.readFileSync (fs.js:433:24)
+    at Object.Module._extensions..js (module.js:415:20)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1069:20)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1071:54)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeMods (/home/ubuntu/workspace/tools.js:1036:28)
+    at Object.<anonymous> (/home/ubuntu/workspace/battle-engine.js:24:38)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+
+Error: CRASH LOADING GEN3 DATA in ./mods/gen3/formats-data.js:
+Error: ENOMEM: not enough memory, read
+    at Error (native)
+    at Object.fs.readSync (fs.js:603:19)
+    at Object.fs.readFileSync (fs.js:433:24)
+    at Object.Module._extensions..js (module.js:415:20)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1069:20)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1071:54)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1056:43)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1056:43)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeMods (/home/ubuntu/workspace/tools.js:1040:20)
+    at Object.<anonymous> (/home/ubuntu/workspace/battle-engine.js:24:38)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+
+Error: CRASH LOADING DATA IN ./mods/gen1/scripts.js: Error: ENOMEM: not enough memory, read
+    at Error (native)
+    at Object.fs.readSync (fs.js:603:19)
+    at Object.fs.readFileSync (fs.js:433:24)
+    at Object.Module._extensions..js (module.js:415:20)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at new Tools (/home/ubuntu/workspace/tools.js:110:22)
+    at new Tools (/home/ubuntu/workspace/tools.js:112:56)
+    at Function.module.exports.Tools.preloadMods (/home/ubuntu/workspace/tools.js:127:30)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1124:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Object.<anonymous> (/home/ubuntu/workspace/chat-plugins/datasearch.js:250:8)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+
+Additional information:
+
+
+Error: CRASH LOADING DATA IN ./mods/gottalent/scripts.js: Error: ENOMEM: not enough memory, read
+    at Error (native)
+    at Object.fs.readSync (fs.js:603:19)
+    at Object.fs.readFileSync (fs.js:433:24)
+    at Object.Module._extensions..js (module.js:415:20)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at new Tools (/home/ubuntu/workspace/tools.js:110:22)
+    at new Tools (/home/ubuntu/workspace/tools.js:112:56)
+    at Function.module.exports.Tools.preloadMods (/home/ubuntu/workspace/tools.js:127:30)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1124:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Object.<anonymous> (/home/ubuntu/workspace/chat-plugins/datasearch.js:250:8)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+
+Additional information:
+
+
+Error: bind EADDRINUSE 0.0.0.0:8080
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at cb (net.js:1299:16)
+    at rr (cluster.js:607:14)
+    at Worker.<anonymous> (cluster.js:577:9)
+    at process.<anonymous> (cluster.js:736:8)
+    at emitTwo (events.js:92:20)
+    at process.emit (events.js:172:7)
+    at handleMessage (internal/child_process.js:695:10)
+    at Pipe.channel.onread (internal/child_process.js:440:11)
+
+Additional information:
+
+
+ReferenceError: Ontime is not defined
+    at CommandContext.exports.commands.ontime (/home/ubuntu/workspace/chat-plugins/time.js:69:25)
+    at CommandContext.run (/home/ubuntu/workspace/command-parser.js:278:28)
+    at Object.exports.multiLinePattern.exports.parse (/home/ubuntu/workspace/command-parser.js:623:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:104:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1441:9)
+    at Function.fs.readFile.groupData.rename.connection.getAlts.forPunishment.getAltUsers.forPunishment.leaveRoom.force.prepBattle.connection.static.pruneInactive.Users.socketConnect.Users.socketReceive.message [as socketReceive] (/home/ubuntu/workspace/users.js:1612:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:52:11)
+    at emitTwo (events.js:92:20)
+    at Worker.emit (events.js:172:7)
+    at ChildProcess.<anonymous> (cluster.js:40:12)
+
+Additional information:
+  user = Paul☯71◕‿◕
+  room = lobby
+  message = /ontime
+
+
+Error: CRASH LOADING FORMATS:
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1140:22)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1142:56)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Object.<anonymous> (/home/ubuntu/workspace/chat-plugins/datasearch.js:250:8)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+
+Additional information:
+
+
+Error: CRASH LOADING FORMATS:
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function._load (/home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1140:22)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1142:56)
+    at Object.<anonymous> (/home/ubuntu/workspace/app.js:187:7)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function._load (/home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Object.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/pm2/lib/ProcessContainerFork.js:46:21)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+
+Error: CRASH LOADING FORMATS:
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function._load (/home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1140:22)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1142:56)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at /home/ubuntu/workspace/chat-plugins/info.js:1658:30
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+
+Error: CRASH LOADING FORMATS:
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1140:22)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1142:56)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeMods (/home/ubuntu/workspace/tools.js:1036:28)
+    at Object.<anonymous> (/home/ubuntu/workspace/battle-engine.js:24:38)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+
+Error: CRASH LOADING FORMATS:
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1140:22)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1142:56)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Object.<anonymous> (/home/ubuntu/workspace/chat-plugins/datasearch.js:250:8)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+
+Additional information:
+
+
+Error: CRASH LOADING FORMATS:
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1140:22)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1142:56)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeMods (/home/ubuntu/workspace/tools.js:1036:28)
+    at Object.<anonymous> (/home/ubuntu/workspace/battle-engine.js:24:38)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+
+Error: CRASH LOADING FORMATS:
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1140:22)
+    at Object.<anonymous> (/home/ubuntu/workspace/app.js:187:7)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1142:56)
+    at Object.<anonymous> (/home/ubuntu/workspace/app.js:187:7)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+
+Error: CRASH LOADING FORMATS:
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1140:22)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1142:56)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at /home/ubuntu/workspace/chat-plugins/info.js:1658:30
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+
+Error: CRASH LOADING FORMATS:
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1140:22)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1142:56)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Object.<anonymous> (/home/ubuntu/workspace/chat-plugins/datasearch.js:250:8)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+
+Additional information:
+
+
+Error: CRASH LOADING FORMATS:
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1140:22)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1142:56)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeMods (/home/ubuntu/workspace/tools.js:1036:28)
+    at Object.<anonymous> (/home/ubuntu/workspace/battle-engine.js:24:38)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+
+Error: CRASH LOADING FORMATS:
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1140:22)
+    at Object.<anonymous> (/home/ubuntu/workspace/app.js:187:7)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1142:56)
+    at Object.<anonymous> (/home/ubuntu/workspace/app.js:187:7)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+
+Error: CRASH LOADING FORMATS:
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at tryRequire (/home/ubuntu/workspace/tools.js:85:14)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1140:22)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeFormats (/home/ubuntu/workspace/tools.js:1142:56)
+    at Tools.module.exports.Tools.toTimeStamp.Tools.toDurationString.Tools.includeData (/home/ubuntu/workspace/tools.js:1080:9)
+    at /home/ubuntu/workspace/chat-plugins/info.js:1658:30
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+
+ReferenceError: Ontime is not defined
+    at CommandContext.exports.commands.ontime (/home/ubuntu/workspace/chat-plugins/ontime.js:33:25)
+    at CommandContext.run (/home/ubuntu/workspace/command-parser.js:278:28)
+    at Object.exports.multiLinePattern.exports.parse (/home/ubuntu/workspace/command-parser.js:623:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:104:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1441:9)
+    at Function.fs.readFile.groupData.rename.connection.getAlts.forPunishment.getAltUsers.forPunishment.leaveRoom.force.prepBattle.connection.static.pruneInactive.Users.socketConnect.Users.socketReceive.message [as socketReceive] (/home/ubuntu/workspace/users.js:1612:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:52:11)
+    at emitTwo (events.js:92:20)
+    at Worker.emit (events.js:172:7)
+    at ChildProcess.<anonymous> (cluster.js:40:12)
+
+Additional information:
+  user = Paul☯71◕‿◕
+  room = lobby
+  message = /ontime
+
